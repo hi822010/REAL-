@@ -1,0 +1,4629 @@
+
+local Instances = {
+	po = Instance.new("ScreenGui"),
+	main = Instance.new("ScreenGui"),
+	top = Instance.new("Frame"),
+	title = Instance.new("TextLabel"),
+	close = Instance.new("TextButton"),
+	maximize = Instance.new("TextButton"),
+	minimize = Instance.new("TextButton"),
+	Holder = Instance.new("Frame"),
+	Home = Instance.new("TextButton"),
+	Server = Instance.new("TextButton"),
+	Scripts = Instance.new("TextButton"),
+	homepage = Instance.new("Frame"),
+	br = Instance.new("TextLabel"),
+	user = Instance.new("TextLabel"),
+	br2 = Instance.new("TextLabel"),
+	age_2 = Instance.new("TextLabel"),
+	br3 = Instance.new("TextLabel"),
+	f = Instance.new("TextLabel"),
+	user_2 = Instance.new("ImageLabel"),
+	svrtime = Instance.new("TextLabel"),
+	realtime = Instance.new("TextLabel"),
+	jobid = Instance.new("TextLabel"),
+	placeid = Instance.new("TextLabel"),
+	idk = Instance.new("TextLabel"),
+	progress = Instance.new("TextLabel"),
+	serverpage = Instance.new("Frame"),
+	UnAnchor = Instance.new("TextButton"),
+	c00lkidd = Instance.new("TextButton"),
+	hax = Instance.new("RemoteEvent"),
+	BasePlate = Instance.new("TextButton"),
+	SpawnEvent = Instance.new("RemoteEvent"),
+	Kill_All = Instance.new("TextButton"),
+	Clear_Terrain = Instance.new("TextButton"),
+	Disco = Instance.new("TextButton"),
+	Anti = Instance.new("TextButton"),
+	rain_2 = Instance.new("TextButton"),
+	lego = Instance.new("TextButton"),
+	PartEvent = Instance.new("RemoteEvent"),
+	r6 = Instance.new("TextButton"),
+	RemoteEvent = Instance.new("RemoteEvent"),
+	workspace = Instance.new("TextButton"),
+	_6_3x = Instance.new("TextButton"),
+	tornado = Instance.new("TextButton"),
+	RemoteEvent_2 = Instance.new("RemoteEvent"),
+	shutdown = Instance.new("TextButton"),
+	no_kick = Instance.new("TextButton"),
+	song = Instance.new("TextButton"),
+	PlaySoundEvent = Instance.new("RemoteEvent"),
+	destroy = Instance.new("TextButton"),
+	ban = Instance.new("TextButton"),
+	BanEvent = Instance.new("RemoteEvent"),
+	flood = Instance.new("TextButton"),
+	FloodEvent = Instance.new("RemoteEvent"),
+	explode = Instance.new("TextButton"),
+	ClickDetector = Instance.new("ClickDetector"),
+	fog = Instance.new("TextButton"),
+	ClickDetector_2 = Instance.new("ClickDetector"),
+	heli = Instance.new("TextButton"),
+	RemoteEvent_3 = Instance.new("RemoteEvent"),
+	invis = Instance.new("TextButton"),
+	smok = Instance.new("TextButton"),
+	pe = Instance.new("TextButton"),
+	RemoteEvent_4 = Instance.new("RemoteEvent"),
+	fling = Instance.new("TextButton"),
+	scriptspage = Instance.new("Frame"),
+	ssp = Instance.new("TextButton"),
+	RemoteEvent_5 = Instance.new("RemoteEvent"),
+	nzi = Instance.new("TextButton"),
+	RemoteEvent_6 = Instance.new("RemoteEvent"),
+	hax_1 = Instance.new("TextButton"),
+	RemoteEvent_7 = Instance.new("RemoteEvent"),
+	hax_2 = Instance.new("TextButton"),
+	RemoteEvent_8 = Instance.new("RemoteEvent"),
+	ship = Instance.new("TextButton"),
+	RemoteEvent_9 = Instance.new("RemoteEvent"),
+	not = Instance.new("TextButton"),
+	RemoteEvent_10 = Instance.new("RemoteEvent"),
+	sledoni = Instance.new("TextButton"),
+	RemoteEvent_11 = Instance.new("RemoteEvent"),
+	sledoni_yong = Instance.new("TextButton"),
+	RemoteEvent_12 = Instance.new("RemoteEvent"),
+	grand = Instance.new("TextButton"),
+	RemoteEvent_13 = Instance.new("RemoteEvent"),
+	exca = Instance.new("TextButton"),
+	RemoteEvent_14 = Instance.new("RemoteEvent"),
+	r6_2 = Instance.new("TextButton"),
+	RemoteEvent_15 = Instance.new("RemoteEvent"),
+	primadon = Instance.new("TextButton"),
+	RemoteEvent_16 = Instance.new("RemoteEvent"),
+	topkek = Instance.new("TextButton"),
+	RemoteEvent_17 = Instance.new("RemoteEvent"),
+	subspace = Instance.new("TextButton"),
+	RemoteEvent_18 = Instance.new("RemoteEvent"),
+	bom_2 = Instance.new("TextButton"),
+	RemoteEvent_19 = Instance.new("RemoteEvent"),
+	pistol = Instance.new("TextButton"),
+	RemoteEvent_20 = Instance.new("RemoteEvent"),
+	topkek_5 = Instance.new("TextButton"),
+	RemoteEvent_21 = Instance.new("RemoteEvent"),
+	mosque = Instance.new("TextButton"),
+	RemoteEvent_22 = Instance.new("RemoteEvent"),
+	MLG = Instance.new("TextButton"),
+	RemoteEvent_23 = Instance.new("RemoteEvent"),
+	hung = Instance.new("TextButton"),
+	RemoteEvent_24 = Instance.new("RemoteEvent"),
+	trsh_hyub = Instance.new("TextButton"),
+	RemoteEvent_25 = Instance.new("RemoteEvent"),
+	gkv1 = Instance.new("TextButton"),
+	RemoteEvent_26 = Instance.new("RemoteEvent"),
+	uzi = Instance.new("TextButton"),
+	RemoteEvent_27 = Instance.new("RemoteEvent"),
+	guns = Instance.new("TextButton"),
+	RemoteEvent_28 = Instance.new("RemoteEvent"),
+	stra = Instance.new("TextButton"),
+	RemoteEvent_29 = Instance.new("RemoteEvent"),
+	k0p = Instance.new("TextButton"),
+	RemoteEvent_30 = Instance.new("RemoteEvent"),
+	infinite_yield = Instance.new("TextButton"),
+	RemoteEvent_31 = Instance.new("RemoteEvent"),
+	exser = Instance.new("TextButton"),
+	RemoteEvent_32 = Instance.new("RemoteEvent"),
+	nextpage = Instance.new("TextButton"),
+	Executor = Instance.new("TextButton"),
+	executorpage = Instance.new("Frame"),
+	input = Instance.new("TextBox"),
+	exec_2 = Instance.new("TextButton"),
+	vLua = Instance.new("ModuleScript"),
+	LuaK = Instance.new("ModuleScript"),
+	LuaP = Instance.new("ModuleScript"),
+	LuaU = Instance.new("ModuleScript"),
+	LuaX = Instance.new("ModuleScript"),
+	LuaY = Instance.new("ModuleScript"),
+	LuaZ = Instance.new("ModuleScript"),
+	FiOne = Instance.new("ModuleScript"),
+	VirtualEnv = Instance.new("ModuleScript"),
+	event = Instance.new("RemoteEvent"),
+	clear = Instance.new("TextButton"),
+	hey = Instance.new("TextLabel"),
+	idk_2 = Instance.new("TextLabel"),
+	scriptspage2 = Instance.new("Frame"),
+	omni = Instance.new("TextButton"),
+	RemoteEvent_33 = Instance.new("RemoteEvent"),
+	destruction_g = Instance.new("TextButton"),
+	RemoteEvent_34 = Instance.new("RemoteEvent"),
+	beforepage = Instance.new("TextButton"),
+	nextpage_2 = Instance.new("TextButton"),
+	mystic = Instance.new("TextButton"),
+	RemoteEvent_35 = Instance.new("RemoteEvent"),
+	dog = Instance.new("TextButton"),
+	RemoteEvent_36 = Instance.new("RemoteEvent"),
+	mosque_2 = Instance.new("TextButton"),
+	RemoteEvent_37 = Instance.new("RemoteEvent"),
+	ssp_2 = Instance.new("TextButton"),
+	RemoteEvent_38 = Instance.new("RemoteEvent"),
+	laser = Instance.new("TextButton"),
+	RemoteEvent_39 = Instance.new("RemoteEvent"),
+	china = Instance.new("TextButton"),
+	RemoteEvent_40 = Instance.new("RemoteEvent"),
+	bean = Instance.new("TextButton"),
+	RemoteEvent_41 = Instance.new("RemoteEvent"),
+	patrik = Instance.new("TextButton"),
+	RemoteEvent_42 = Instance.new("RemoteEvent"),
+	kitchen = Instance.new("TextButton"),
+	RemoteEvent_43 = Instance.new("RemoteEvent"),
+	virus = Instance.new("TextButton"),
+	RemoteEvent_44 = Instance.new("RemoteEvent"),
+	rocky = Instance.new("TextButton"),
+	RemoteEvent_45 = Instance.new("RemoteEvent"),
+	yield_2 = Instance.new("TextButton"),
+	RemoteEvent_46 = Instance.new("RemoteEvent"),
+	cina = Instance.new("TextButton"),
+	mc = Instance.new("TextButton"),
+	RemoteEvent_47 = Instance.new("RemoteEvent"),
+	c4 = Instance.new("TextButton"),
+	RemoteEvent_48 = Instance.new("RemoteEvent"),
+	summon = Instance.new("TextButton"),
+	RemoteEvent_49 = Instance.new("RemoteEvent"),
+	bv = Instance.new("TextButton"),
+	RemoteEvent_50 = Instance.new("RemoteEvent"),
+	ploit = Instance.new("TextButton"),
+	RemoteEvent_51 = Instance.new("RemoteEvent"),
+	hamer = Instance.new("TextButton"),
+	RemoteEvent_52 = Instance.new("RemoteEvent"),
+	baby = Instance.new("TextButton"),
+	RemoteEvent_53 = Instance.new("RemoteEvent"),
+	kik = Instance.new("TextButton"),
+	RemoteEvent_54 = Instance.new("RemoteEvent"),
+	c0l = Instance.new("TextButton"),
+	RemoteEvent_55 = Instance.new("RemoteEvent"),
+	nds = Instance.new("TextButton"),
+	RemoteEvent_56 = Instance.new("RemoteEvent"),
+	cart = Instance.new("TextButton"),
+	RemoteEvent_57 = Instance.new("RemoteEvent"),
+	GK = Instance.new("TextButton"),
+	RemoteEvent_58 = Instance.new("RemoteEvent"),
+	IDE = Instance.new("TextButton"),
+	RemoteEvent_59 = Instance.new("RemoteEvent"),
+	Output = Instance.new("TextButton"),
+	outputpage = Instance.new("Frame"),
+	MainComponent = Instance.new("ScrollingFrame"),
+	output_2 = Instance.new("TextBox"),
+	clear_2 = Instance.new("TextButton"),
+	scriptspage3 = Instance.new("Frame"),
+	mosque_3 = Instance.new("TextButton"),
+	RemoteEvent_60 = Instance.new("RemoteEvent"),
+	blast = Instance.new("TextButton"),
+	RemoteEvent_61 = Instance.new("RemoteEvent"),
+	bomb = Instance.new("TextButton"),
+	RemoteEvent_62 = Instance.new("RemoteEvent"),
+	map = Instance.new("TextButton"),
+	RemoteEvent_63 = Instance.new("RemoteEvent"),
+	decal = Instance.new("TextButton"),
+	RemoteEvent_64 = Instance.new("RemoteEvent"),
+	obunga = Instance.new("TextButton"),
+	RemoteEvent_65 = Instance.new("RemoteEvent"),
+	rc7 = Instance.new("TextButton"),
+	RemoteEvent_66 = Instance.new("RemoteEvent"),
+	beforepage_2 = Instance.new("TextButton"),
+	nextpage_3 = Instance.new("TextButton"),
+	ambientShadow = Instance.new("ImageLabel"),
+	penumbraShadow = Instance.new("ImageLabel"),
+	umbraShadow_2 = Instance.new("ImageLabel"),
+	icon = Instance.new("ScreenGui"),
+	troll = Instance.new("ImageLabel"),
+	hold = Instance.new("Frame"),
+	TextLabel = Instance.new("TextLabel"),
+}instances.po.Name = "po"
+Instances.po.Parent = game.Workspace
+instances.main.Name = "main"
+Instances.main.Parent = Instances.po
+Instances.top.Name = "top"
+Instances.top.Active = true
+Instances.top.ZIndex = 0
+Instances.top.Size = UDim2.new(0, 457, 0, 29)
+Instances.top.BorderColor3 = Color3.new(0, 0, 1)
+Instances.top.BorderSizePixel = 2
+Instances.top.Position = UDim2.new(0.325987846, 0, 0.334872991, 0)
+Instances.top.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.top.Parent = Instances.main
+
+Instances.title.Name = "title"
+Instances.title.Size = UDim2.new(0, 187, 0, 29)
+Instances.title.BorderColor3 = Color3.new(0, 0, 0)
+Instances.title.BorderSizePixel = 0
+Instances.title.BackgroundTransparency = 1
+Instances.title.Position = UDim2.new(0.0153172864, 0, 0, 0)
+Instances.title.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.title.TextColor3 = Color3.new(1, 1, 1)
+Instances.title.Text = "POLARIA"
+Instances.title.FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.title.TextWrapped = true
+Instances.title.TextXAlignment = Enum.TextXAlignment.Left
+Instances.title.Parent = Instances.top
+
+Instances.close.Name = "close"
+Instances.close.AutoButtonColor = true
+Instances.close.Size = UDim2.new(0, 29, 0, 29)
+Instances.close.BorderColor3 = Color3.new(0, 0, 1)
+Instances.close.BorderSizePixel = 2
+Instances.close.Position = UDim2.new(0.93654269, 0, 0, 0)
+Instances.close.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.close.TextColor3 = Color3.new(1, 1, 1)
+Instances.close.Text = "X"
+Instances.close.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.close.TextWrapped = true
+Instances.close.Parent = Instances.top
+
+Instances.maximize.Name = "maximize"
+Instances.maximize.AutoButtonColor = true
+Instances.maximize.Size = UDim2.new(0, 29, 0, 29)
+Instances.maximize.BorderColor3 = Color3.new(0, 0, 1)
+Instances.maximize.BorderSizePixel = 2
+Instances.maximize.Position = UDim2.new(0.87308532, 0, 0, 0)
+Instances.maximize.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.maximize.TextColor3 = Color3.new(1, 1, 1)
+Instances.maximize.Text = "🗖"
+Instances.maximize.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.maximize.TextWrapped = true
+Instances.maximize.Parent = Instances.top
+
+Instances.minimize.Name = "minimize"
+Instances.minimize.AutoButtonColor = true
+Instances.minimize.Size = UDim2.new(0, 29, 0, 29)
+Instances.minimize.BorderColor3 = Color3.new(0, 0, 1)
+Instances.minimize.BorderSizePixel = 2
+Instances.minimize.Position = UDim2.new(0.80962801, 0, 0, 0)
+Instances.minimize.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.minimize.TextColor3 = Color3.new(1, 1, 1)
+Instances.minimize.Text = "-"
+Instances.minimize.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.minimize.TextWrapped = true
+Instances.minimize.Parent = Instances.top
+
+Instances.Holder.Name = "Holder"
+Instances.Holder.Size = UDim2.new(0, 457, 0, 311)
+Instances.Holder.BorderColor3 = Color3.new(0, 0, 1)
+Instances.Holder.BorderSizePixel = 2
+Instances.Holder.Position = UDim2.new(0, 0, 1, 0)
+Instances.Holder.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.Holder.Parent = Instances.top
+
+Instances.Home.Name = "Home"
+Instances.Home.AutoButtonColor = true
+Instances.Home.Size = UDim2.new(0, 107, 0, 29)
+Instances.Home.BorderColor3 = Color3.new(0, 0, 1)
+Instances.Home.BorderSizePixel = 2
+Instances.Home.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.Home.TextColor3 = Color3.new(1, 1, 1)
+Instances.Home.Text = "Home"
+Instances.Home.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.Home.TextWrapped = true
+Instances.Home.Parent = Instances.Holder
+
+Instances.Server.Name = "Server"
+Instances.Server.AutoButtonColor = true
+Instances.Server.Size = UDim2.new(0, 103, 0, 29)
+Instances.Server.BorderColor3 = Color3.new(0, 0, 1)
+Instances.Server.BorderSizePixel = 2
+Instances.Server.Position = UDim2.new(0.234135672, 0, 0, 0)
+Instances.Server.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.Server.TextColor3 = Color3.new(1, 1, 1)
+Instances.Server.Text = "Server\Local"
+Instances.Server.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.Server.TextWrapped = true
+Instances.Server.Parent = Instances.Holder
+
+Instances.Scripts.Name = "Scripts"
+Instances.Scripts.AutoButtonColor = true
+Instances.Scripts.Size = UDim2.new(0, 89, 0, 29)
+Instances.Scripts.BorderColor3 = Color3.new(0, 0, 1)
+Instances.Scripts.BorderSizePixel = 2
+Instances.Scripts.Position = UDim2.new(0.459518611, 0, 0, 0)
+Instances.Scripts.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.Scripts.TextColor3 = Color3.new(1, 1, 1)
+Instances.Scripts.Text = "Scripts"
+Instances.Scripts.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.Scripts.TextWrapped = true
+Instances.Scripts.Parent = Instances.Holder
+
+Instances.homepage.Name = "homepage"
+Instances.homepage.Size = UDim2.new(0, 457, 0, 280)
+Instances.homepage.BorderColor3 = Color3.new(0, 0, 0)
+Instances.homepage.BorderSizePixel = 0
+Instances.homepage.BackgroundTransparency = 1
+Instances.homepage.Position = UDim2.new(0, 0, 0.0996784568, 0)
+Instances.homepage.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.homepage.Parent = Instances.Holder
+
+Instances.br.Name = "br"
+Instances.br.Size = UDim2.new(0, 96, 0, 29)
+Instances.br.BorderColor3 = Color3.new(0, 0, 0)
+Instances.br.BorderSizePixel = 0
+Instances.br.BackgroundTransparency = 1
+Instances.br.Position = UDim2.new(0.249452949, 0, 0.0500000007, 0)
+Instances.br.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.br.TextColor3 = Color3.new(1, 1, 1)
+Instances.br.Text = "Username :"
+Instances.br.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.br.TextXAlignment = Enum.TextXAlignment.Left
+Instances.br.Parent = Instances.homepage
+
+Instances.user.Name = "user"
+Instances.user.Size = UDim2.new(0, 96, 0, 29)
+Instances.user.BorderColor3 = Color3.new(0, 0, 0)
+Instances.user.BorderSizePixel = 0
+Instances.user.BackgroundTransparency = 1
+Instances.user.Position = UDim2.new(0.459518611, 0, 0.0500000007, 0)
+Instances.user.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.user.TextColor3 = Color3.new(1, 1, 1)
+Instances.user.Text = "gr0vek1dd"
+Instances.user.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.user.TextXAlignment = Enum.TextXAlignment.Left
+Instances.user.Parent = Instances.homepage
+
+Instances.br2.Name = "br2"
+Instances.br2.Size = UDim2.new(0, 96, 0, 29)
+Instances.br2.BorderColor3 = Color3.new(0, 0, 0)
+Instances.br2.BorderSizePixel = 0
+Instances.br2.BackgroundTransparency = 1
+Instances.br2.Position = UDim2.new(0.249452949, 0, 0.153571427, 0)
+Instances.br2.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.br2.TextColor3 = Color3.new(1, 1, 1)
+Instances.br2.Text = "Age Days :"
+Instances.br2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.br2.TextXAlignment = Enum.TextXAlignment.Left
+Instances.br2.Parent = Instances.homepage
+
+Instances.age_2.Name = "age"
+Instances.age_2.Size = UDim2.new(0, 96, 0, 29)
+Instances.age_2.BorderColor3 = Color3.new(0, 0, 0)
+Instances.age_2.BorderSizePixel = 0
+Instances.age_2.BackgroundTransparency = 1
+Instances.age_2.Position = UDim2.new(0.459518611, 0, 0.153571427, 0)
+Instances.age_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.age_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.age_2.Text = "0 Days"
+Instances.age_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.age_2.TextXAlignment = Enum.TextXAlignment.Left
+Instances.age_2.Parent = Instances.homepage
+
+Instances.br3.Name = "br3"
+Instances.br3.Size = UDim2.new(0, 96, 0, 29)
+Instances.br3.BorderColor3 = Color3.new(0, 0, 0)
+Instances.br3.BorderSizePixel = 0
+Instances.br3.BackgroundTransparency = 1
+Instances.br3.Position = UDim2.new(0.249452949, 0, 0.257142872, 0)
+Instances.br3.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.br3.TextColor3 = Color3.new(1, 1, 1)
+Instances.br3.Text = "FE :"
+Instances.br3.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.br3.TextXAlignment = Enum.TextXAlignment.Left
+Instances.br3.Parent = Instances.homepage
+
+Instances.f.Name = "f"
+Instances.f.Size = UDim2.new(0, 96, 0, 29)
+Instances.f.BorderColor3 = Color3.new(0, 0, 0)
+Instances.f.BorderSizePixel = 0
+Instances.f.BackgroundTransparency = 1
+Instances.f.Position = UDim2.new(0.334792137, 0, 0.257142872, 0)
+Instances.f.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.f.TextColor3 = Color3.new(1, 1, 1)
+Instances.f.Text = "Enabled!"
+Instances.f.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.f.TextXAlignment = Enum.TextXAlignment.Left
+Instances.f.Parent = Instances.homepage
+
+Instances.user_2.Name = "user"
+Instances.user_2.Size = UDim2.new(0, 100, 0, 100)
+Instances.user_2.BorderColor3 = Color3.new(0, 0, 0)
+Instances.user_2.BorderSizePixel = 0
+Instances.user_2.BackgroundTransparency = 1
+Instances.user_2.Position = UDim2.new(0.0153172864, 0, 0.0714285746, 0)
+Instances.user_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.user_2.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=7918563817&width=420&height=420&format=png"
+Instances.user_2.Parent = Instances.homepage
+
+Instances.svrtime.Name = "svrtime"
+Instances.svrtime.Size = UDim2.new(0, 96, 0, 29)
+Instances.svrtime.BorderColor3 = Color3.new(0, 0, 0)
+Instances.svrtime.BorderSizePixel = 0
+Instances.svrtime.BackgroundTransparency = 1
+Instances.svrtime.Position = UDim2.new(0.0153172864, 0, 0.460714281, 0)
+Instances.svrtime.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.svrtime.TextColor3 = Color3.new(1, 1, 1)
+Instances.svrtime.Text = "Server Time: 09:01:12"
+Instances.svrtime.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.svrtime.TextXAlignment = Enum.TextXAlignment.Left
+Instances.svrtime.Parent = Instances.homepage
+
+Instances.realtime.Name = "realtime"
+Instances.realtime.Size = UDim2.new(0, 96, 0, 29)
+Instances.realtime.BorderColor3 = Color3.new(0, 0, 0)
+Instances.realtime.BorderSizePixel = 0
+Instances.realtime.BackgroundTransparency = 1
+Instances.realtime.Position = UDim2.new(0.0153172864, 0, 0.564285696, 0)
+Instances.realtime.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.realtime.TextColor3 = Color3.new(1, 1, 1)
+Instances.realtime.Text = "Time: 09:01:12"
+Instances.realtime.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.realtime.TextXAlignment = Enum.TextXAlignment.Left
+Instances.realtime.Parent = Instances.homepage
+
+Instances.jobid.Name = "jobid"
+Instances.jobid.Size = UDim2.new(0, 96, 0, 29)
+Instances.jobid.BorderColor3 = Color3.new(0, 0, 0)
+Instances.jobid.BorderSizePixel = 0
+Instances.jobid.BackgroundTransparency = 1
+Instances.jobid.Position = UDim2.new(0.0153172864, 0, 0.66785717, 0)
+Instances.jobid.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.jobid.TextColor3 = Color3.new(1, 1, 1)
+Instances.jobid.Text = "Job ID: 00000000-0000-0000-0000-000000000000"
+Instances.jobid.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.jobid.TextXAlignment = Enum.TextXAlignment.Left
+Instances.jobid.Parent = Instances.homepage
+
+Instances.placeid.Name = "placeid"
+Instances.placeid.Size = UDim2.new(0, 96, 0, 29)
+Instances.placeid.BorderColor3 = Color3.new(0, 0, 0)
+Instances.placeid.BorderSizePixel = 0
+Instances.placeid.BackgroundTransparency = 1
+Instances.placeid.Position = UDim2.new(0.0153172864, 0, 0.771428585, 0)
+Instances.placeid.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.placeid.TextColor3 = Color3.new(1, 1, 1)
+Instances.placeid.Text = "Place ID: 0 (Game Name Not Found)"
+Instances.placeid.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.placeid.TextXAlignment = Enum.TextXAlignment.Left
+Instances.placeid.Parent = Instances.homepage
+
+Instances.idk.Name = "idk"
+Instances.idk.Size = UDim2.new(0, 96, 0, 29)
+Instances.idk.BorderColor3 = Color3.new(0, 0, 0)
+Instances.idk.BorderSizePixel = 0
+Instances.idk.BackgroundTransparency = 1
+Instances.idk.Position = UDim2.new(0.0153172864, 0, 0.875, 0)
+Instances.idk.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.idk.TextColor3 = Color3.new(1, 1, 1)
+Instances.idk.Text = "Country: us"
+Instances.idk.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.idk.TextXAlignment = Enum.TextXAlignment.Left
+Instances.idk.Parent = Instances.homepage
+
+Instances.progress.Name = "progress"
+Instances.progress.Size = UDim2.new(0, 334, 0, 31)
+Instances.progress.BorderColor3 = Color3.new(0, 0, 0)
+Instances.progress.BorderSizePixel = 0
+Instances.progress.BackgroundTransparency = 1
+Instances.progress.Position = UDim2.new(0.251148582, 0, 0.344999909, 0)
+Instances.progress.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.progress.TextColor3 = Color3.new(1, 1, 1)
+Instances.progress.Text = "Success! You are now be able to use."
+Instances.progress.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.progress.TextWrapped = true
+Instances.progress.TextXAlignment = Enum.TextXAlignment.Left
+Instances.progress.Parent = Instances.homepage
+
+Instances.serverpage.Name = "serverpage"
+Instances.serverpage.Visible = false
+Instances.serverpage.Size = UDim2.new(0, 457, 0, 280)
+Instances.serverpage.BorderColor3 = Color3.new(0, 0, 0)
+Instances.serverpage.BorderSizePixel = 0
+Instances.serverpage.BackgroundTransparency = 1
+Instances.serverpage.Position = UDim2.new(0, 0, 0.0996784568, 0)
+Instances.serverpage.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.serverpage.Parent = Instances.Holder
+
+Instances.UnAnchor.Name = "UnAnchor"
+Instances.UnAnchor.AutoButtonColor = true
+Instances.UnAnchor.Size = UDim2.new(0, 104, 0, 29)
+Instances.UnAnchor.BorderColor3 = Color3.new(0, 0, 1)
+Instances.UnAnchor.BorderSizePixel = 2
+Instances.UnAnchor.Position = UDim2.new(0.0306345727, 0, 0.0357142873, 0)
+Instances.UnAnchor.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.UnAnchor.TextColor3 = Color3.new(1, 1, 1)
+Instances.UnAnchor.Text = "UnAnchor"
+Instances.UnAnchor.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.UnAnchor.TextWrapped = true
+Instances.UnAnchor.Parent = Instances.serverpage
+
+Instances.c00lkidd.Name = "c00lkidd"
+Instances.c00lkidd.AutoButtonColor = true
+Instances.c00lkidd.Size = UDim2.new(0, 104, 0, 29)
+Instances.c00lkidd.BorderColor3 = Color3.new(0, 0, 1)
+Instances.c00lkidd.BorderSizePixel = 2
+Instances.c00lkidd.Position = UDim2.new(0.271334797, 0, 0.0357142873, 0)
+Instances.c00lkidd.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.c00lkidd.TextColor3 = Color3.new(1, 1, 1)
+Instances.c00lkidd.Text = "C00LKIDD"
+Instances.c00lkidd.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.c00lkidd.TextWrapped = true
+Instances.c00lkidd.Parent = Instances.serverpage
+
+Instances.hax.Name = "hax"
+Instances.hax.Parent = Instances.c00lkidd
+
+Instances.BasePlate.Name = "BasePlate"
+Instances.BasePlate.AutoButtonColor = true
+Instances.BasePlate.Size = UDim2.new(0, 104, 0, 29)
+Instances.BasePlate.BorderColor3 = Color3.new(0, 0, 1)
+Instances.BasePlate.BorderSizePixel = 2
+Instances.BasePlate.Position = UDim2.new(0.512035012, 0, 0.0357142873, 0)
+Instances.BasePlate.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.BasePlate.TextColor3 = Color3.new(1, 1, 1)
+Instances.BasePlate.Text = "Baseplate"
+Instances.BasePlate.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.BasePlate.TextWrapped = true
+Instances.BasePlate.Parent = Instances.serverpage
+
+Instances.SpawnEvent.Name = "SpawnEvent"
+Instances.SpawnEvent.Parent = Instances.BasePlate
+
+Instances.Kill_All.Name = "Kill All"
+Instances.Kill_All.AutoButtonColor = true
+Instances.Kill_All.Size = UDim2.new(0, 99, 0, 29)
+Instances.Kill_All.BorderColor3 = Color3.new(0, 0, 1)
+Instances.Kill_All.BorderSizePixel = 2
+Instances.Kill_All.Position = UDim2.new(0.752735257, 0, 0.0357142873, 0)
+Instances.Kill_All.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.Kill_All.TextColor3 = Color3.new(1, 1, 1)
+Instances.Kill_All.Text = "Kill All"
+Instances.Kill_All.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.Kill_All.TextWrapped = true
+Instances.Kill_All.Parent = Instances.serverpage
+
+Instances.Clear_Terrain.Name = "Clear Terrain"
+Instances.Clear_Terrain.AutoButtonColor = true
+Instances.Clear_Terrain.Size = UDim2.new(0, 104, 0, 29)
+Instances.Clear_Terrain.BorderColor3 = Color3.new(0, 0, 1)
+Instances.Clear_Terrain.BorderSizePixel = 2
+Instances.Clear_Terrain.Position = UDim2.new(0.0306345727, 0, 0.160714284, 0)
+Instances.Clear_Terrain.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.Clear_Terrain.TextColor3 = Color3.new(1, 1, 1)
+Instances.Clear_Terrain.Text = "Clear Terrain"
+Instances.Clear_Terrain.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.Clear_Terrain.TextWrapped = true
+Instances.Clear_Terrain.Parent = Instances.serverpage
+
+Instances.Disco.Name = "Disco"
+Instances.Disco.AutoButtonColor = true
+Instances.Disco.Size = UDim2.new(0, 104, 0, 29)
+Instances.Disco.BorderColor3 = Color3.new(0, 0, 1)
+Instances.Disco.BorderSizePixel = 2
+Instances.Disco.Position = UDim2.new(0.271334797, 0, 0.160714284, 0)
+Instances.Disco.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.Disco.TextColor3 = Color3.new(1, 1, 1)
+Instances.Disco.Text = "Disco"
+Instances.Disco.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.Disco.TextWrapped = true
+Instances.Disco.Parent = Instances.serverpage
+
+Instances.Anti.Name = "Anti"
+Instances.Anti.AutoButtonColor = true
+Instances.Anti.Size = UDim2.new(0, 104, 0, 29)
+Instances.Anti.BorderColor3 = Color3.new(0, 0, 1)
+Instances.Anti.BorderSizePixel = 2
+Instances.Anti.Position = UDim2.new(0.512035012, 0, 0.160714284, 0)
+Instances.Anti.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.Anti.TextColor3 = Color3.new(1, 1, 1)
+Instances.Anti.Text = "Anti-Robloxian"
+Instances.Anti.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.Anti.TextWrapped = true
+Instances.Anti.Parent = Instances.serverpage
+
+Instances.rain_2.Name = "rain"
+Instances.rain_2.AutoButtonColor = true
+Instances.rain_2.Size = UDim2.new(0, 99, 0, 29)
+Instances.rain_2.BorderColor3 = Color3.new(0, 0, 1)
+Instances.rain_2.BorderSizePixel = 2
+Instances.rain_2.Position = UDim2.new(0.752735257, 0, 0.160714284, 0)
+Instances.rain_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.rain_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.rain_2.Text = "Bomb Rain"
+Instances.rain_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.rain_2.TextWrapped = true
+Instances.rain_2.Parent = Instances.serverpage
+
+Instances.lego.Name = "lego"
+Instances.lego.AutoButtonColor = true
+Instances.lego.Size = UDim2.new(0, 99, 0, 29)
+Instances.lego.BorderColor3 = Color3.new(0, 0, 1)
+Instances.lego.BorderSizePixel = 2
+Instances.lego.Position = UDim2.new(0.752735257, 0, 0.285714298, 0)
+Instances.lego.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.lego.TextColor3 = Color3.new(1, 1, 1)
+Instances.lego.Text = "Bricks"
+Instances.lego.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.lego.TextWrapped = true
+Instances.lego.Parent = Instances.serverpage
+
+Instances.PartEvent.Name = "PartEvent"
+Instances.PartEvent.Parent = Instances.lego
+
+Instances.r6.Name = "r6"
+Instances.r6.AutoButtonColor = true
+Instances.r6.Size = UDim2.new(0, 104, 0, 29)
+Instances.r6.BorderColor3 = Color3.new(0, 0, 1)
+Instances.r6.BorderSizePixel = 2
+Instances.r6.Position = UDim2.new(0.512035012, 0, 0.285714298, 0)
+Instances.r6.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.r6.TextColor3 = Color3.new(1, 1, 1)
+Instances.r6.Text = "R6"
+Instances.r6.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.r6.TextWrapped = true
+Instances.r6.Parent = Instances.serverpage
+
+Instances.RemoteEvent.Name = "RemoteEvent"
+Instances.RemoteEvent.Parent = Instances.r6
+
+Instances.workspace.Name = "workspace"
+Instances.workspace.AutoButtonColor = true
+Instances.workspace.Size = UDim2.new(0, 104, 0, 29)
+Instances.workspace.BorderColor3 = Color3.new(0, 0, 1)
+Instances.workspace.BorderSizePixel = 2
+Instances.workspace.Position = UDim2.new(0.271334797, 0, 0.285714298, 0)
+Instances.workspace.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.workspace.TextColor3 = Color3.new(1, 1, 1)
+Instances.workspace.Text = "Clear Workspace"
+Instances.workspace.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.workspace.TextWrapped = true
+Instances.workspace.Parent = Instances.serverpage
+
+Instances._6_3x.Name = "6 3x"
+Instances._6_3x.AutoButtonColor = true
+Instances._6_3x.Size = UDim2.new(0, 104, 0, 29)
+Instances._6_3x.BorderColor3 = Color3.new(0, 0, 1)
+Instances._6_3x.BorderSizePixel = 2
+Instances._6_3x.Position = UDim2.new(0.0306345727, 0, 0.285714298, 0)
+Instances._6_3x.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances._6_3x.TextColor3 = Color3.new(1, 1, 1)
+Instances._6_3x.Text = "666"
+Instances._6_3x.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances._6_3x.TextWrapped = true
+Instances._6_3x.Parent = Instances.serverpage
+
+Instances.tornado.Name = "tornado"
+Instances.tornado.AutoButtonColor = true
+Instances.tornado.Size = UDim2.new(0, 99, 0, 29)
+Instances.tornado.BorderColor3 = Color3.new(0, 0, 1)
+Instances.tornado.BorderSizePixel = 2
+Instances.tornado.Position = UDim2.new(0.752735257, 0, 0.414285719, 0)
+Instances.tornado.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.tornado.TextColor3 = Color3.new(1, 1, 1)
+Instances.tornado.Text = "Tornado"
+Instances.tornado.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.tornado.TextWrapped = true
+Instances.tornado.Parent = Instances.serverpage
+
+Instances.RemoteEvent_2.Name = "RemoteEvent"
+Instances.RemoteEvent_2.Parent = Instances.tornado
+
+Instances.shutdown.Name = "shutdown"
+Instances.shutdown.AutoButtonColor = true
+Instances.shutdown.Size = UDim2.new(0, 104, 0, 29)
+Instances.shutdown.BorderColor3 = Color3.new(0, 0, 1)
+Instances.shutdown.BorderSizePixel = 2
+Instances.shutdown.Position = UDim2.new(0.512035012, 0, 0.414285719, 0)
+Instances.shutdown.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.shutdown.TextColor3 = Color3.new(1, 1, 1)
+Instances.shutdown.Text = "Shutdown"
+Instances.shutdown.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.shutdown.TextWrapped = true
+Instances.shutdown.Parent = Instances.serverpage
+
+Instances.no_kick.Name = "no kick"
+Instances.no_kick.AutoButtonColor = true
+Instances.no_kick.Size = UDim2.new(0, 104, 0, 29)
+Instances.no_kick.BorderColor3 = Color3.new(0, 0, 1)
+Instances.no_kick.BorderSizePixel = 2
+Instances.no_kick.Position = UDim2.new(0.271334797, 0, 0.414285719, 0)
+Instances.no_kick.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.no_kick.TextColor3 = Color3.new(1, 1, 1)
+Instances.no_kick.Text = "Anti Kick"
+Instances.no_kick.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.no_kick.TextWrapped = true
+Instances.no_kick.Parent = Instances.serverpage
+
+Instances.song.Name = "song"
+Instances.song.AutoButtonColor = true
+Instances.song.Size = UDim2.new(0, 104, 0, 29)
+Instances.song.BorderColor3 = Color3.new(0, 0, 1)
+Instances.song.BorderSizePixel = 2
+Instances.song.Position = UDim2.new(0.271334797, 0, 0.414285719, 0)
+Instances.song.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.song.TextColor3 = Color3.new(1, 1, 1)
+Instances.song.Text = "Play theme"
+Instances.song.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.song.TextWrapped = true
+Instances.song.Parent = Instances.serverpage
+
+Instances.PlaySoundEvent.Name = "PlaySoundEvent"
+Instances.PlaySoundEvent.Parent = Instances.song
+
+Instances.destroy.Name = "destroy"
+Instances.destroy.AutoButtonColor = true
+Instances.destroy.Size = UDim2.new(0, 104, 0, 29)
+Instances.destroy.BorderColor3 = Color3.new(0, 0, 1)
+Instances.destroy.BorderSizePixel = 2
+Instances.destroy.Position = UDim2.new(0.0306345727, 0, 0.539285719, 0)
+Instances.destroy.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.destroy.TextColor3 = Color3.new(1, 1, 1)
+Instances.destroy.Text = "Destruction"
+Instances.destroy.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.destroy.TextWrapped = true
+Instances.destroy.Parent = Instances.serverpage
+
+Instances.ban.Name = "ban"
+Instances.ban.AutoButtonColor = true
+Instances.ban.Size = UDim2.new(0, 104, 0, 29)
+Instances.ban.BorderColor3 = Color3.new(0, 0, 1)
+Instances.ban.BorderSizePixel = 2
+Instances.ban.Position = UDim2.new(0.0306345727, 0, 0.414285719, 0)
+Instances.ban.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.ban.TextColor3 = Color3.new(1, 1, 1)
+Instances.ban.Text = "Ban others"
+Instances.ban.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.ban.TextWrapped = true
+Instances.ban.Parent = Instances.serverpage
+
+Instances.BanEvent.Name = "BanEvent"
+Instances.BanEvent.Parent = Instances.ban
+
+Instances.flood.Name = "flood"
+Instances.flood.AutoButtonColor = true
+Instances.flood.Size = UDim2.new(0, 104, 0, 29)
+Instances.flood.BorderColor3 = Color3.new(0, 0, 1)
+Instances.flood.BorderSizePixel = 2
+Instances.flood.Position = UDim2.new(0.271334797, 0, 0.539285719, 0)
+Instances.flood.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.flood.TextColor3 = Color3.new(1, 1, 1)
+Instances.flood.Text = "Flood"
+Instances.flood.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.flood.TextWrapped = true
+Instances.flood.Parent = Instances.serverpage
+
+Instances.FloodEvent.Name = "FloodEvent"
+Instances.FloodEvent.Parent = Instances.flood
+
+Instances.explode.Name = "explode"
+Instances.explode.AutoButtonColor = true
+Instances.explode.Size = UDim2.new(0, 104, 0, 29)
+Instances.explode.BorderColor3 = Color3.new(0, 0, 1)
+Instances.explode.BorderSizePixel = 2
+Instances.explode.Position = UDim2.new(0.512035012, 0, 0.539285719, 0)
+Instances.explode.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.explode.TextColor3 = Color3.new(1, 1, 1)
+Instances.explode.Text = "Explode All"
+Instances.explode.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.explode.TextWrapped = true
+Instances.explode.Parent = Instances.serverpage
+
+Instances.ClickDetector.Name = "ClickDetector"
+Instances.ClickDetector.Parent = Instances.explode
+
+Instances.fog.Name = "fog"
+Instances.fog.AutoButtonColor = true
+Instances.fog.Size = UDim2.new(0, 99, 0, 29)
+Instances.fog.BorderColor3 = Color3.new(0, 0, 1)
+Instances.fog.BorderSizePixel = 2
+Instances.fog.Position = UDim2.new(0.752735257, 0, 0.539285719, 0)
+Instances.fog.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.fog.TextColor3 = Color3.new(1, 1, 1)
+Instances.fog.Text = "Nightmare"
+Instances.fog.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.fog.TextWrapped = true
+Instances.fog.Parent = Instances.serverpage
+
+Instances.ClickDetector_2.Name = "ClickDetector"
+Instances.ClickDetector_2.Parent = Instances.fog
+
+Instances.heli.Name = "heli"
+Instances.heli.AutoButtonColor = true
+Instances.heli.Size = UDim2.new(0, 104, 0, 29)
+Instances.heli.BorderColor3 = Color3.new(0, 0, 1)
+Instances.heli.BorderSizePixel = 2
+Instances.heli.Position = UDim2.new(0.0306345727, 0, 0.664285719, 0)
+Instances.heli.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.heli.TextColor3 = Color3.new(1, 1, 1)
+Instances.heli.Text = "Helicopter"
+Instances.heli.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.heli.TextWrapped = true
+Instances.heli.TextScaled = true
+Instances.heli.Parent = Instances.serverpage
+
+Instances.RemoteEvent_3.Name = "RemoteEvent"
+Instances.RemoteEvent_3.Parent = Instances.heli
+
+Instances.invis.Name = "invis"
+Instances.invis.AutoButtonColor = true
+Instances.invis.Size = UDim2.new(0, 104, 0, 29)
+Instances.invis.BorderColor3 = Color3.new(0, 0, 1)
+Instances.invis.BorderSizePixel = 2
+Instances.invis.Position = UDim2.new(0.271334797, 0, 0.664285719, 0)
+Instances.invis.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.invis.TextColor3 = Color3.new(1, 1, 1)
+Instances.invis.Text = "Invisible All"
+Instances.invis.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.invis.TextWrapped = true
+Instances.invis.Parent = Instances.serverpage
+
+Instances.smok.Name = "smok"
+Instances.smok.AutoButtonColor = true
+Instances.smok.Size = UDim2.new(0, 104, 0, 29)
+Instances.smok.BorderColor3 = Color3.new(0, 0, 1)
+Instances.smok.BorderSizePixel = 2
+Instances.smok.Position = UDim2.new(0.512035012, 0, 0.664285719, 0)
+Instances.smok.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.smok.TextColor3 = Color3.new(1, 1, 1)
+Instances.smok.Text = "Smoke All"
+Instances.smok.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.smok.TextWrapped = true
+Instances.smok.Parent = Instances.serverpage
+
+Instances.pe.Name = "pe"
+Instances.pe.AutoButtonColor = true
+Instances.pe.Size = UDim2.new(0, 99, 0, 29)
+Instances.pe.BorderColor3 = Color3.new(0, 0, 1)
+Instances.pe.BorderSizePixel = 2
+Instances.pe.Position = UDim2.new(0.752735257, 0, 0.664285719, 0)
+Instances.pe.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.pe.TextColor3 = Color3.new(1, 1, 1)
+Instances.pe.Text = "Pee"
+Instances.pe.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.pe.TextWrapped = true
+Instances.pe.TextScaled = true
+Instances.pe.Parent = Instances.serverpage
+
+Instances.RemoteEvent_4.Name = "RemoteEvent"
+Instances.RemoteEvent_4.Parent = Instances.pe
+
+Instances.fling.Name = "fling"
+Instances.fling.AutoButtonColor = true
+Instances.fling.Size = UDim2.new(0, 104, 0, 29)
+Instances.fling.BorderColor3 = Color3.new(0, 0, 1)
+Instances.fling.BorderSizePixel = 2
+Instances.fling.Position = UDim2.new(0.0306345727, 0, 0.789285719, 0)
+Instances.fling.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.fling.TextColor3 = Color3.new(1, 1, 1)
+Instances.fling.Text = "Fling All"
+Instances.fling.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.fling.TextWrapped = true
+Instances.fling.TextScaled = true
+Instances.fling.Parent = Instances.serverpage
+
+Instances.scriptspage.Name = "scriptspage"
+Instances.scriptspage.Visible = false
+Instances.scriptspage.Size = UDim2.new(0, 457, 0, 282)
+Instances.scriptspage.BorderColor3 = Color3.new(0, 0, 0)
+Instances.scriptspage.BorderSizePixel = 0
+Instances.scriptspage.BackgroundTransparency = 1
+Instances.scriptspage.Position = UDim2.new(0, 0, 0.093247585, 0)
+Instances.scriptspage.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.scriptspage.Parent = Instances.Holder
+
+Instances.ssp.Name = "ssp"
+Instances.ssp.AutoButtonColor = true
+Instances.ssp.Size = UDim2.new(0, 104, 0, 29)
+Instances.ssp.BorderColor3 = Color3.new(0, 0, 1)
+Instances.ssp.BorderSizePixel = 2
+Instances.ssp.Position = UDim2.new(0.271334797, 0, 0.0357142873, 0)
+Instances.ssp.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.ssp.TextColor3 = Color3.new(1, 1, 1)
+Instances.ssp.Text = "SSP"
+Instances.ssp.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.ssp.TextWrapped = true
+Instances.ssp.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_5.Name = "RemoteEvent"
+Instances.RemoteEvent_5.Parent = Instances.ssp
+
+Instances.nzi.Name = "nzi"
+Instances.nzi.AutoButtonColor = true
+Instances.nzi.Size = UDim2.new(0, 104, 0, 29)
+Instances.nzi.BorderColor3 = Color3.new(0, 0, 1)
+Instances.nzi.BorderSizePixel = 2
+Instances.nzi.Position = UDim2.new(0.512035012, 0, 0.0357142873, 0)
+Instances.nzi.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.nzi.TextColor3 = Color3.new(1, 1, 1)
+Instances.nzi.Text = "N*zi Map"
+Instances.nzi.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.nzi.TextWrapped = true
+Instances.nzi.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_6.Name = "RemoteEvent"
+Instances.RemoteEvent_6.Parent = Instances.nzi
+
+Instances.hax_1.Name = "hax 1"
+Instances.hax_1.AutoButtonColor = true
+Instances.hax_1.Size = UDim2.new(0, 99, 0, 29)
+Instances.hax_1.BorderColor3 = Color3.new(0, 0, 1)
+Instances.hax_1.BorderSizePixel = 2
+Instances.hax_1.Position = UDim2.new(0.752735257, 0, 0.0357142873, 0)
+Instances.hax_1.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.hax_1.TextColor3 = Color3.new(1, 1, 1)
+Instances.hax_1.Text = "Hax GUI V1"
+Instances.hax_1.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.hax_1.TextWrapped = true
+Instances.hax_1.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_7.Name = "RemoteEvent"
+Instances.RemoteEvent_7.Parent = Instances.hax_1
+
+Instances.hax_2.Name = "hax 2"
+Instances.hax_2.AutoButtonColor = true
+Instances.hax_2.Size = UDim2.new(0, 99, 0, 29)
+Instances.hax_2.BorderColor3 = Color3.new(0, 0, 1)
+Instances.hax_2.BorderSizePixel = 2
+Instances.hax_2.Position = UDim2.new(0.752735257, 0, 0.159827814, 0)
+Instances.hax_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.hax_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.hax_2.Text = "Hax GUI V2"
+Instances.hax_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.hax_2.TextWrapped = true
+Instances.hax_2.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_8.Name = "RemoteEvent"
+Instances.RemoteEvent_8.Parent = Instances.hax_2
+
+Instances.ship.Name = "ship"
+Instances.ship.AutoButtonColor = true
+Instances.ship.Size = UDim2.new(0, 104, 0, 29)
+Instances.ship.BorderColor3 = Color3.new(0, 0, 1)
+Instances.ship.BorderSizePixel = 2
+Instances.ship.Position = UDim2.new(0.512035012, 0, 0.159827814, 0)
+Instances.ship.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.ship.TextColor3 = Color3.new(1, 1, 1)
+Instances.ship.Text = "Worship"
+Instances.ship.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.ship.TextWrapped = true
+Instances.ship.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_9.Name = "RemoteEvent"
+Instances.RemoteEvent_9.Parent = Instances.ship
+
+Instances.not.Name = "not"
+Instances.not.AutoButtonColor = true
+Instances.not.Size = UDim2.new(0, 104, 0, 29)
+Instances.not.BorderColor3 = Color3.new(0, 0, 1)
+Instances.not.BorderSizePixel = 2
+Instances.not.Position = UDim2.new(0.271334797, 0, 0.159827814, 0)
+Instances.not.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.not.TextColor3 = Color3.new(1, 1, 1)
+Instances.not.Text = "N00t N00t!"
+Instances.not.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.not.TextWrapped = true
+Instances.not.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_10.Name = "RemoteEvent"
+Instances.RemoteEvent_10.Parent = Instances.not
+
+Instances.sledoni.Name = "sledoni"
+Instances.sledoni.AutoButtonColor = true
+Instances.sledoni.Size = UDim2.new(0, 104, 0, 29)
+Instances.sledoni.BorderColor3 = Color3.new(0, 0, 1)
+Instances.sledoni.BorderSizePixel = 2
+Instances.sledoni.Position = UDim2.new(0.0306345727, 0, 0.159827814, 0)
+Instances.sledoni.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.sledoni.TextColor3 = Color3.new(1, 1, 1)
+Instances.sledoni.Text = "Sheldoni"
+Instances.sledoni.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.sledoni.TextWrapped = true
+Instances.sledoni.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_11.Name = "RemoteEvent"
+Instances.RemoteEvent_11.Parent = Instances.sledoni
+
+Instances.sledoni_yong.Name = "sledoni yong"
+Instances.sledoni_yong.AutoButtonColor = true
+Instances.sledoni_yong.Size = UDim2.new(0, 104, 0, 29)
+Instances.sledoni_yong.BorderColor3 = Color3.new(0, 0, 1)
+Instances.sledoni_yong.BorderSizePixel = 2
+Instances.sledoni_yong.Position = UDim2.new(0.0306345727, 0, 0.283941269, 0)
+Instances.sledoni_yong.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.sledoni_yong.TextColor3 = Color3.new(1, 1, 1)
+Instances.sledoni_yong.Text = "yong Shelon"
+Instances.sledoni_yong.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.sledoni_yong.TextWrapped = true
+Instances.sledoni_yong.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_12.Name = "RemoteEvent"
+Instances.RemoteEvent_12.Parent = Instances.sledoni_yong
+
+Instances.grand.Name = "grand"
+Instances.grand.AutoButtonColor = true
+Instances.grand.Size = UDim2.new(0, 104, 0, 29)
+Instances.grand.BorderColor3 = Color3.new(0, 0, 1)
+Instances.grand.BorderSizePixel = 2
+Instances.grand.Position = UDim2.new(0.271334797, 0, 0.283941269, 0)
+Instances.grand.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.grand.TextColor3 = Color3.new(1, 1, 1)
+Instances.grand.Text = "Grandosla"
+Instances.grand.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.grand.TextWrapped = true
+Instances.grand.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_13.Name = "RemoteEvent"
+Instances.RemoteEvent_13.Parent = Instances.grand
+
+Instances.exca.Name = "exca"
+Instances.exca.AutoButtonColor = true
+Instances.exca.Size = UDim2.new(0, 104, 0, 29)
+Instances.exca.BorderColor3 = Color3.new(0, 0, 1)
+Instances.exca.BorderSizePixel = 2
+Instances.exca.Position = UDim2.new(0.512035012, 0, 0.283941269, 0)
+Instances.exca.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.exca.TextColor3 = Color3.new(1, 1, 1)
+Instances.exca.Text = "Excavator"
+Instances.exca.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.exca.TextWrapped = true
+Instances.exca.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_14.Name = "RemoteEvent"
+Instances.RemoteEvent_14.Parent = Instances.exca
+
+Instances.r6_2.Name = "r6"
+Instances.r6_2.AutoButtonColor = true
+Instances.r6_2.Size = UDim2.new(0, 99, 0, 29)
+Instances.r6_2.BorderColor3 = Color3.new(0, 0, 1)
+Instances.r6_2.BorderSizePixel = 2
+Instances.r6_2.Position = UDim2.new(0.752735257, 0, 0.282168239, 0)
+Instances.r6_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.r6_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.r6_2.Text = "R6"
+Instances.r6_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.r6_2.TextWrapped = true
+Instances.r6_2.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_15.Name = "RemoteEvent"
+Instances.RemoteEvent_15.Parent = Instances.r6_2
+
+Instances.primadon.Name = "primadon"
+Instances.primadon.AutoButtonColor = true
+Instances.primadon.Size = UDim2.new(0, 104, 0, 29)
+Instances.primadon.BorderColor3 = Color3.new(0, 0, 1)
+Instances.primadon.BorderSizePixel = 2
+Instances.primadon.Position = UDim2.new(0.0306345727, 0, 0.0357142873, 0)
+Instances.primadon.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.primadon.TextColor3 = Color3.new(1, 1, 1)
+Instances.primadon.Text = "Primadon"
+Instances.primadon.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.primadon.TextWrapped = true
+Instances.primadon.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_16.Name = "RemoteEvent"
+Instances.RemoteEvent_16.Parent = Instances.primadon
+
+Instances.topkek.Name = "topkek"
+Instances.topkek.AutoButtonColor = true
+Instances.topkek.Size = UDim2.new(0, 104, 0, 29)
+Instances.topkek.BorderColor3 = Color3.new(0, 0, 1)
+Instances.topkek.BorderSizePixel = 2
+Instances.topkek.Position = UDim2.new(0.0306345727, 0, 0.418692946, 0)
+Instances.topkek.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.topkek.TextColor3 = Color3.new(1, 1, 1)
+Instances.topkek.Text = "T0PK3K 3.0"
+Instances.topkek.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.topkek.TextWrapped = true
+Instances.topkek.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_17.Name = "RemoteEvent"
+Instances.RemoteEvent_17.Parent = Instances.topkek
+
+Instances.subspace.Name = "subspace"
+Instances.subspace.AutoButtonColor = true
+Instances.subspace.Size = UDim2.new(0, 104, 0, 29)
+Instances.subspace.BorderColor3 = Color3.new(0, 0, 1)
+Instances.subspace.BorderSizePixel = 2
+Instances.subspace.Position = UDim2.new(0.271334797, 0, 0.418692946, 0)
+Instances.subspace.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.subspace.TextColor3 = Color3.new(1, 1, 1)
+Instances.subspace.Text = "retster ST"
+Instances.subspace.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.subspace.TextWrapped = true
+Instances.subspace.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_18.Name = "RemoteEvent"
+Instances.RemoteEvent_18.Parent = Instances.subspace
+
+Instances.bom_2.Name = "bom 2"
+Instances.bom_2.AutoButtonColor = true
+Instances.bom_2.Size = UDim2.new(0, 104, 0, 29)
+Instances.bom_2.BorderColor3 = Color3.new(0, 0, 1)
+Instances.bom_2.BorderSizePixel = 2
+Instances.bom_2.Position = UDim2.new(0.512035012, 0, 0.418692946, 0)
+Instances.bom_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.bom_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.bom_2.Text = "Bomb Vest V2"
+Instances.bom_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.bom_2.TextWrapped = true
+Instances.bom_2.TextScaled = true
+Instances.bom_2.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_19.Name = "RemoteEvent"
+Instances.RemoteEvent_19.Parent = Instances.bom_2
+
+Instances.pistol.Name = "pistol"
+Instances.pistol.AutoButtonColor = true
+Instances.pistol.Size = UDim2.new(0, 99, 0, 29)
+Instances.pistol.BorderColor3 = Color3.new(0, 0, 1)
+Instances.pistol.BorderSizePixel = 2
+Instances.pistol.Position = UDim2.new(0.752735257, 0, 0.418692946, 0)
+Instances.pistol.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.pistol.TextColor3 = Color3.new(1, 1, 1)
+Instances.pistol.Text = "KYS Pistol"
+Instances.pistol.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.pistol.TextWrapped = true
+Instances.pistol.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_20.Name = "RemoteEvent"
+Instances.RemoteEvent_20.Parent = Instances.pistol
+
+Instances.topkek_5.Name = "topkek 5"
+Instances.topkek_5.AutoButtonColor = true
+Instances.topkek_5.Size = UDim2.new(0, 104, 0, 29)
+Instances.topkek_5.BorderColor3 = Color3.new(0, 0, 1)
+Instances.topkek_5.BorderSizePixel = 2
+Instances.topkek_5.Position = UDim2.new(0.0306345727, 0, 0.542806447, 0)
+Instances.topkek_5.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.topkek_5.TextColor3 = Color3.new(1, 1, 1)
+Instances.topkek_5.Text = "T0PK3K 5.3"
+Instances.topkek_5.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.topkek_5.TextWrapped = true
+Instances.topkek_5.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_21.Name = "RemoteEvent"
+Instances.RemoteEvent_21.Parent = Instances.topkek_5
+
+Instances.mosque.Name = "mosque"
+Instances.mosque.AutoButtonColor = true
+Instances.mosque.Size = UDim2.new(0, 104, 0, 29)
+Instances.mosque.BorderColor3 = Color3.new(0, 0, 1)
+Instances.mosque.BorderSizePixel = 2
+Instances.mosque.Position = UDim2.new(0.271334797, 0, 0.542806447, 0)
+Instances.mosque.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.mosque.TextColor3 = Color3.new(1, 1, 1)
+Instances.mosque.Text = "Mosque"
+Instances.mosque.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.mosque.TextWrapped = true
+Instances.mosque.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_22.Name = "RemoteEvent"
+Instances.RemoteEvent_22.Parent = Instances.mosque
+
+Instances.MLG.Name = "MLG"
+Instances.MLG.AutoButtonColor = true
+Instances.MLG.Size = UDim2.new(0, 104, 0, 29)
+Instances.MLG.BorderColor3 = Color3.new(0, 0, 1)
+Instances.MLG.BorderSizePixel = 2
+Instances.MLG.Position = UDim2.new(0.512035012, 0, 0.542806447, 0)
+Instances.MLG.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.MLG.TextColor3 = Color3.new(1, 1, 1)
+Instances.MLG.Text = "MLG Gun"
+Instances.MLG.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.MLG.TextWrapped = true
+Instances.MLG.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_23.Name = "RemoteEvent"
+Instances.RemoteEvent_23.Parent = Instances.MLG
+
+Instances.hung.Name = "hung"
+Instances.hung.AutoButtonColor = true
+Instances.hung.Size = UDim2.new(0, 99, 0, 29)
+Instances.hung.BorderColor3 = Color3.new(0, 0, 1)
+Instances.hung.BorderSizePixel = 2
+Instances.hung.Position = UDim2.new(0.752735257, 0, 0.542806447, 0)
+Instances.hung.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.hung.TextColor3 = Color3.new(1, 1, 1)
+Instances.hung.Text = "Hanger"
+Instances.hung.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.hung.TextWrapped = true
+Instances.hung.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_24.Name = "RemoteEvent"
+Instances.RemoteEvent_24.Parent = Instances.hung
+
+Instances.trsh_hyub.Name = "trsh hyub"
+Instances.trsh_hyub.AutoButtonColor = true
+Instances.trsh_hyub.Size = UDim2.new(0, 104, 0, 29)
+Instances.trsh_hyub.BorderColor3 = Color3.new(0, 0, 1)
+Instances.trsh_hyub.BorderSizePixel = 2
+Instances.trsh_hyub.Position = UDim2.new(0.0306345727, 0, 0.666919887, 0)
+Instances.trsh_hyub.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.trsh_hyub.TextColor3 = Color3.new(1, 1, 1)
+Instances.trsh_hyub.Text = "Trash Hub"
+Instances.trsh_hyub.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.trsh_hyub.TextWrapped = true
+Instances.trsh_hyub.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_25.Name = "RemoteEvent"
+Instances.RemoteEvent_25.Parent = Instances.trsh_hyub
+
+Instances.gkv1.Name = "gkv1"
+Instances.gkv1.AutoButtonColor = true
+Instances.gkv1.Size = UDim2.new(0, 104, 0, 29)
+Instances.gkv1.BorderColor3 = Color3.new(0, 0, 1)
+Instances.gkv1.BorderSizePixel = 2
+Instances.gkv1.Position = UDim2.new(0.271334797, 0, 0.666919887, 0)
+Instances.gkv1.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.gkv1.TextColor3 = Color3.new(1, 1, 1)
+Instances.gkv1.Text = "Grab knife 1"
+Instances.gkv1.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.gkv1.TextWrapped = true
+Instances.gkv1.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_26.Name = "RemoteEvent"
+Instances.RemoteEvent_26.Parent = Instances.gkv1
+
+Instances.uzi.Name = "uzi"
+Instances.uzi.AutoButtonColor = true
+Instances.uzi.Size = UDim2.new(0, 104, 0, 29)
+Instances.uzi.BorderColor3 = Color3.new(0, 0, 1)
+Instances.uzi.BorderSizePixel = 2
+Instances.uzi.Position = UDim2.new(0.512035012, 0, 0.666919887, 0)
+Instances.uzi.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.uzi.TextColor3 = Color3.new(1, 1, 1)
+Instances.uzi.Text = "Uzi Gun"
+Instances.uzi.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.uzi.TextWrapped = true
+Instances.uzi.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_27.Name = "RemoteEvent"
+Instances.RemoteEvent_27.Parent = Instances.uzi
+
+Instances.guns.Name = "guns"
+Instances.guns.AutoButtonColor = true
+Instances.guns.Size = UDim2.new(0, 99, 0, 29)
+Instances.guns.BorderColor3 = Color3.new(0, 0, 1)
+Instances.guns.BorderSizePixel = 2
+Instances.guns.Position = UDim2.new(0.752735257, 0, 0.666919887, 0)
+Instances.guns.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.guns.TextColor3 = Color3.new(1, 1, 1)
+Instances.guns.Text = "Alif Guns"
+Instances.guns.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.guns.TextWrapped = true
+Instances.guns.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_28.Name = "RemoteEvent"
+Instances.RemoteEvent_28.Parent = Instances.guns
+
+Instances.stra.Name = "stra"
+Instances.stra.AutoButtonColor = true
+Instances.stra.Size = UDim2.new(0, 104, 0, 29)
+Instances.stra.BorderColor3 = Color3.new(0, 0, 1)
+Instances.stra.BorderSizePixel = 2
+Instances.stra.Position = UDim2.new(0.0306345727, 0, 0.791033387, 0)
+Instances.stra.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.stra.TextColor3 = Color3.new(1, 1, 1)
+Instances.stra.Text = "Stratosphere"
+Instances.stra.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.stra.TextWrapped = true
+Instances.stra.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_29.Name = "RemoteEvent"
+Instances.RemoteEvent_29.Parent = Instances.stra
+
+Instances.k0p.Name = "k0p"
+Instances.k0p.AutoButtonColor = true
+Instances.k0p.Size = UDim2.new(0, 104, 0, 29)
+Instances.k0p.BorderColor3 = Color3.new(0, 0, 1)
+Instances.k0p.BorderSizePixel = 2
+Instances.k0p.Position = UDim2.new(0.271334797, 0, 0.791033387, 0)
+Instances.k0p.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.k0p.TextColor3 = Color3.new(1, 1, 1)
+Instances.k0p.Text = "K**P V11"
+Instances.k0p.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.k0p.TextWrapped = true
+Instances.k0p.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_30.Name = "RemoteEvent"
+Instances.RemoteEvent_30.Parent = Instances.k0p
+
+Instances.infinite_yield.Name = "infinite yield"
+Instances.infinite_yield.AutoButtonColor = true
+Instances.infinite_yield.Size = UDim2.new(0, 104, 0, 29)
+Instances.infinite_yield.BorderColor3 = Color3.new(0, 0, 1)
+Instances.infinite_yield.BorderSizePixel = 2
+Instances.infinite_yield.Position = UDim2.new(0.512035012, 0, 0.791033387, 0)
+Instances.infinite_yield.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.infinite_yield.TextColor3 = Color3.new(1, 1, 1)
+Instances.infinite_yield.Text = "INF YIELD"
+Instances.infinite_yield.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.infinite_yield.TextWrapped = true
+Instances.infinite_yield.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_31.Name = "RemoteEvent"
+Instances.RemoteEvent_31.Parent = Instances.infinite_yield
+
+Instances.exser.Name = "exser"
+Instances.exser.AutoButtonColor = true
+Instances.exser.Size = UDim2.new(0, 99, 0, 29)
+Instances.exser.BorderColor3 = Color3.new(0, 0, 1)
+Instances.exser.BorderSizePixel = 2
+Instances.exser.Position = UDim2.new(0.752735257, 0, 0.791033387, 0)
+Instances.exser.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.exser.TextColor3 = Color3.new(1, 1, 1)
+Instances.exser.Text = "ExSer"
+Instances.exser.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.exser.TextWrapped = true
+Instances.exser.Parent = Instances.scriptspage
+
+Instances.RemoteEvent_32.Name = "RemoteEvent"
+Instances.RemoteEvent_32.Parent = Instances.exser
+
+Instances.nextpage.Name = "nextpage"
+Instances.nextpage.AutoButtonColor = true
+Instances.nextpage.Size = UDim2.new(0, 34, 0, 15)
+Instances.nextpage.BorderColor3 = Color3.new(0, 0, 1)
+Instances.nextpage.BorderSizePixel = 2
+Instances.nextpage.Position = UDim2.new(0.463894963, 0, 0.922239065, 0)
+Instances.nextpage.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.nextpage.TextColor3 = Color3.new(1, 1, 1)
+Instances.nextpage.Text = ">"
+Instances.nextpage.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.nextpage.TextWrapped = true
+Instances.nextpage.Parent = Instances.scriptspage
+
+Instances.Executor.Name = "Executor"
+Instances.Executor.AutoButtonColor = true
+Instances.Executor.Size = UDim2.new(0, 79, 0, 29)
+Instances.Executor.BorderColor3 = Color3.new(0, 0, 1)
+Instances.Executor.BorderSizePixel = 2
+Instances.Executor.Position = UDim2.new(0.654266953, 0, 0, 0)
+Instances.Executor.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.Executor.TextColor3 = Color3.new(1, 1, 1)
+Instances.Executor.Text = "Executor"
+Instances.Executor.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.Executor.TextWrapped = true
+Instances.Executor.Parent = Instances.Holder
+
+Instances.executorpage.Name = "executorpage"
+Instances.executorpage.Visible = false
+Instances.executorpage.Size = UDim2.new(0, 457, 0, 282)
+Instances.executorpage.BorderColor3 = Color3.new(0, 0, 0)
+Instances.executorpage.BorderSizePixel = 0
+Instances.executorpage.BackgroundTransparency = 1
+Instances.executorpage.Position = UDim2.new(0, 0, 0.093247585, 0)
+Instances.executorpage.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.executorpage.Parent = Instances.Holder
+
+Instances.input.Name = "input"
+Instances.input.Size = UDim2.new(0, 444, 0, 218)
+Instances.input.BorderColor3 = Color3.new(0, 0, 1)
+Instances.input.BorderSizePixel = 2
+Instances.input.Position = UDim2.new(0.0153172864, 0, 0.0319148935, 0)
+Instances.input.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.input.MultiLine = true
+Instances.input.TextYAlignment = Enum.TextYAlignment.Top
+Instances.input.PlaceholderColor3 = Color3.new(1, 1, 1)
+Instances.input.PlaceholderText = "--[
+         Made by Alif
+--["
+Instances.input.ClearTextOnFocus = false
+Instances.input.TextColor3 = Color3.new(0, 1, 0)
+Instances.input.Text = ""
+Instances.input.TextXAlignment = Enum.TextXAlignment.Left
+Instances.input.FontFace = Font.new("rbxasset://fonts/families/Inconsolata.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.input.Parent = Instances.executorpage
+
+Instances.exec_2.Name = "exec"
+Instances.exec_2.AutoButtonColor = true
+Instances.exec_2.Size = UDim2.new(0, 104, 0, 33)
+Instances.exec_2.BorderColor3 = Color3.new(0, 0, 1)
+Instances.exec_2.BorderSizePixel = 2
+Instances.exec_2.Position = UDim2.new(0.0153172864, 0, 0.847770989, 0)
+Instances.exec_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.exec_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.exec_2.Text = "Execute"
+Instances.exec_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.exec_2.TextWrapped = true
+Instances.exec_2.Parent = Instances.executorpage
+
+Instances.vLua.Name = "vLua"
+Instances.vLua.Parent = game.Workspace.po.main.top.Holder.executorpage.exec.Script
+
+Instances.LuaK.Name = "LuaK"
+Instances.LuaK.Parent = Instances.vLua
+
+Instances.LuaP.Name = "LuaP"
+Instances.LuaP.Parent = Instances.vLua
+
+Instances.LuaU.Name = "LuaU"
+Instances.LuaU.Parent = Instances.vLua
+
+Instances.LuaX.Name = "LuaX"
+Instances.LuaX.Parent = Instances.vLua
+
+Instances.LuaY.Name = "LuaY"
+Instances.LuaY.Parent = Instances.vLua
+
+Instances.LuaZ.Name = "LuaZ"
+Instances.LuaZ.Parent = Instances.vLua
+
+Instances.FiOne.Name = "FiOne"
+Instances.FiOne.Parent = Instances.vLua
+
+Instances.VirtualEnv.Name = "VirtualEnv"
+Instances.VirtualEnv.Parent = Instances.vLua
+
+Instances.event.Name = "event"
+Instances.event.Parent = Instances.exec_2
+
+Instances.clear.Name = "clear"
+Instances.clear.AutoButtonColor = true
+Instances.clear.Size = UDim2.new(0, 104, 0, 33)
+Instances.clear.BorderColor3 = Color3.new(0, 0, 1)
+Instances.clear.BorderSizePixel = 2
+Instances.clear.Position = UDim2.new(0.260393888, 0, 0.847770989, 0)
+Instances.clear.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.clear.TextColor3 = Color3.new(1, 1, 1)
+Instances.clear.Text = "Clear"
+Instances.clear.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.clear.TextWrapped = true
+Instances.clear.Parent = Instances.executorpage
+
+Instances.hey.Name = "hey"
+Instances.hey.Size = UDim2.new(0, 100, 0, 32)
+Instances.hey.BorderColor3 = Color3.new(0, 0, 0)
+Instances.hey.BorderSizePixel = 0
+Instances.hey.BackgroundTransparency = 1
+Instances.hey.Position = UDim2.new(0.51859957, 0, 0.847770989, 0)
+Instances.hey.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.hey.TextColor3 = Color3.new(1, 1, 1)
+Instances.hey.Text = "Execute on :"
+Instances.hey.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.hey.TextXAlignment = Enum.TextXAlignment.Left
+Instances.hey.Parent = Instances.executorpage
+
+Instances.idk_2.Name = "idk"
+Instances.idk_2.Size = UDim2.new(0, 100, 0, 32)
+Instances.idk_2.BorderColor3 = Color3.new(0, 0, 0)
+Instances.idk_2.BorderSizePixel = 0
+Instances.idk_2.BackgroundTransparency = 1
+Instances.idk_2.Position = UDim2.new(0.737417936, 0, 0.847770989, 0)
+Instances.idk_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.idk_2.TextColor3 = Color3.new(0, 1, 0)
+Instances.idk_2.Text = "Server"
+Instances.idk_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.idk_2.TextXAlignment = Enum.TextXAlignment.Left
+Instances.idk_2.Parent = Instances.executorpage
+
+Instances.scriptspage2.Name = "scriptspage2"
+Instances.scriptspage2.Visible = false
+Instances.scriptspage2.Size = UDim2.new(0, 457, 0, 280)
+Instances.scriptspage2.BorderColor3 = Color3.new(0, 0, 0)
+Instances.scriptspage2.BorderSizePixel = 0
+Instances.scriptspage2.BackgroundTransparency = 1
+Instances.scriptspage2.Position = UDim2.new(0, 0, 0.0996784568, 0)
+Instances.scriptspage2.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.scriptspage2.Parent = Instances.Holder
+
+Instances.omni.Name = "omni"
+Instances.omni.AutoButtonColor = true
+Instances.omni.Size = UDim2.new(0, 104, 0, 29)
+Instances.omni.BorderColor3 = Color3.new(0, 0, 1)
+Instances.omni.BorderSizePixel = 2
+Instances.omni.Position = UDim2.new(0.0306345727, 0, 0.0357142873, 0)
+Instances.omni.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.omni.TextColor3 = Color3.new(1, 1, 1)
+Instances.omni.Text = "Omni God"
+Instances.omni.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.omni.TextWrapped = true
+Instances.omni.TextScaled = true
+Instances.omni.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_33.Name = "RemoteEvent"
+Instances.RemoteEvent_33.Parent = Instances.omni
+
+Instances.destruction_g.Name = "destruction g"
+Instances.destruction_g.AutoButtonColor = true
+Instances.destruction_g.Size = UDim2.new(0, 104, 0, 29)
+Instances.destruction_g.BorderColor3 = Color3.new(0, 0, 1)
+Instances.destruction_g.BorderSizePixel = 2
+Instances.destruction_g.Position = UDim2.new(0.271334797, 0, 0.0357142873, 0)
+Instances.destruction_g.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.destruction_g.TextColor3 = Color3.new(1, 1, 1)
+Instances.destruction_g.Text = "God Of Destruction"
+Instances.destruction_g.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.destruction_g.TextWrapped = true
+Instances.destruction_g.TextScaled = true
+Instances.destruction_g.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_34.Name = "RemoteEvent"
+Instances.RemoteEvent_34.Parent = Instances.destruction_g
+
+Instances.beforepage.Name = "beforepage"
+Instances.beforepage.AutoButtonColor = true
+Instances.beforepage.Size = UDim2.new(0, 34, 0, 15)
+Instances.beforepage.BorderColor3 = Color3.new(0, 0, 1)
+Instances.beforepage.BorderSizePixel = 2
+Instances.beforepage.Position = UDim2.new(0.389496714, 0, 0.922239006, 0)
+Instances.beforepage.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.beforepage.TextColor3 = Color3.new(1, 1, 1)
+Instances.beforepage.Text = "<"
+Instances.beforepage.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.beforepage.TextWrapped = true
+Instances.beforepage.Parent = Instances.scriptspage2
+
+Instances.nextpage_2.Name = "nextpage"
+Instances.nextpage_2.AutoButtonColor = true
+Instances.nextpage_2.Size = UDim2.new(0, 34, 0, 15)
+Instances.nextpage_2.BorderColor3 = Color3.new(0, 0, 1)
+Instances.nextpage_2.BorderSizePixel = 2
+Instances.nextpage_2.Position = UDim2.new(0.474835873, 0, 0.922239006, 0)
+Instances.nextpage_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.nextpage_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.nextpage_2.Text = ">"
+Instances.nextpage_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.nextpage_2.TextWrapped = true
+Instances.nextpage_2.Parent = Instances.scriptspage2
+
+Instances.mystic.Name = "mystic"
+Instances.mystic.AutoButtonColor = true
+Instances.mystic.Size = UDim2.new(0, 104, 0, 29)
+Instances.mystic.BorderColor3 = Color3.new(0, 0, 1)
+Instances.mystic.BorderSizePixel = 2
+Instances.mystic.Position = UDim2.new(0.512035012, 0, 0.0357142873, 0)
+Instances.mystic.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.mystic.TextColor3 = Color3.new(1, 1, 1)
+Instances.mystic.Text = "Arc of Mystic"
+Instances.mystic.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.mystic.TextWrapped = true
+Instances.mystic.TextScaled = true
+Instances.mystic.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_35.Name = "RemoteEvent"
+Instances.RemoteEvent_35.Parent = Instances.mystic
+
+Instances.dog.Name = "dog"
+Instances.dog.AutoButtonColor = true
+Instances.dog.Size = UDim2.new(0, 99, 0, 29)
+Instances.dog.BorderColor3 = Color3.new(0, 0, 1)
+Instances.dog.BorderSizePixel = 2
+Instances.dog.Position = UDim2.new(0.752735257, 0, 0.0348278582, 0)
+Instances.dog.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.dog.TextColor3 = Color3.new(1, 1, 1)
+Instances.dog.Text = "Doggo Army"
+Instances.dog.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.dog.TextWrapped = true
+Instances.dog.TextScaled = true
+Instances.dog.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_36.Name = "RemoteEvent"
+Instances.RemoteEvent_36.Parent = Instances.dog
+
+Instances.mosque_2.Name = "mosque"
+Instances.mosque_2.AutoButtonColor = true
+Instances.mosque_2.Size = UDim2.new(0, 104, 0, 29)
+Instances.mosque_2.BorderColor3 = Color3.new(0, 0, 1)
+Instances.mosque_2.BorderSizePixel = 2
+Instances.mosque_2.Position = UDim2.new(0.0306345727, 0, 0.160714284, 0)
+Instances.mosque_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.mosque_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.mosque_2.Text = "Mosque 2"
+Instances.mosque_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.mosque_2.TextWrapped = true
+Instances.mosque_2.TextScaled = true
+Instances.mosque_2.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_37.Name = "RemoteEvent"
+Instances.RemoteEvent_37.Parent = Instances.mosque_2
+
+Instances.ssp_2.Name = "ssp 2"
+Instances.ssp_2.AutoButtonColor = true
+Instances.ssp_2.Size = UDim2.new(0, 104, 0, 29)
+Instances.ssp_2.BorderColor3 = Color3.new(0, 0, 1)
+Instances.ssp_2.BorderSizePixel = 2
+Instances.ssp_2.Position = UDim2.new(0.271334797, 0, 0.160714284, 0)
+Instances.ssp_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.ssp_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.ssp_2.Text = "Converted SSP"
+Instances.ssp_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.ssp_2.TextWrapped = true
+Instances.ssp_2.TextScaled = true
+Instances.ssp_2.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_38.Name = "RemoteEvent"
+Instances.RemoteEvent_38.Parent = Instances.ssp_2
+
+Instances.laser.Name = "laser"
+Instances.laser.AutoButtonColor = true
+Instances.laser.Size = UDim2.new(0, 104, 0, 29)
+Instances.laser.BorderColor3 = Color3.new(0, 0, 1)
+Instances.laser.BorderSizePixel = 2
+Instances.laser.Position = UDim2.new(0.512035012, 0, 0.160714284, 0)
+Instances.laser.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.laser.TextColor3 = Color3.new(1, 1, 1)
+Instances.laser.Text = "Laser Cat"
+Instances.laser.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.laser.TextWrapped = true
+Instances.laser.TextScaled = true
+Instances.laser.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_39.Name = "RemoteEvent"
+Instances.RemoteEvent_39.Parent = Instances.laser
+
+Instances.china.Name = "china"
+Instances.china.AutoButtonColor = true
+Instances.china.Size = UDim2.new(0, 99, 0, 29)
+Instances.china.BorderColor3 = Color3.new(0, 0, 1)
+Instances.china.BorderSizePixel = 2
+Instances.china.Position = UDim2.new(0.752735257, 0, 0.159827858, 0)
+Instances.china.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.china.TextColor3 = Color3.new(1, 1, 1)
+Instances.china.Text = "Chinese Announcement"
+Instances.china.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.china.TextWrapped = true
+Instances.china.TextScaled = true
+Instances.china.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_40.Name = "RemoteEvent"
+Instances.RemoteEvent_40.Parent = Instances.china
+
+Instances.bean.Name = "bean"
+Instances.bean.AutoButtonColor = true
+Instances.bean.Size = UDim2.new(0, 104, 0, 29)
+Instances.bean.BorderColor3 = Color3.new(0, 0, 1)
+Instances.bean.BorderSizePixel = 2
+Instances.bean.Position = UDim2.new(0.0306345727, 0, 0.285714298, 0)
+Instances.bean.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.bean.TextColor3 = Color3.new(1, 1, 1)
+Instances.bean.Text = "Mr.Bean Admin (REAL VERSION)"
+Instances.bean.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.bean.TextWrapped = true
+Instances.bean.TextScaled = true
+Instances.bean.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_41.Name = "RemoteEvent"
+Instances.RemoteEvent_41.Parent = Instances.bean
+
+Instances.patrik.Name = "patrik"
+Instances.patrik.AutoButtonColor = true
+Instances.patrik.Size = UDim2.new(0, 104, 0, 29)
+Instances.patrik.BorderColor3 = Color3.new(0, 0, 1)
+Instances.patrik.BorderSizePixel = 2
+Instances.patrik.Position = UDim2.new(0.271334797, 0, 0.285714298, 0)
+Instances.patrik.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.patrik.TextColor3 = Color3.new(1, 1, 1)
+Instances.patrik.Text = "Patrick :0"
+Instances.patrik.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.patrik.TextWrapped = true
+Instances.patrik.TextScaled = true
+Instances.patrik.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_42.Name = "RemoteEvent"
+Instances.RemoteEvent_42.Parent = Instances.patrik
+
+Instances.kitchen.Name = "kitchen"
+Instances.kitchen.AutoButtonColor = true
+Instances.kitchen.Size = UDim2.new(0, 104, 0, 29)
+Instances.kitchen.BorderColor3 = Color3.new(0, 0, 1)
+Instances.kitchen.BorderSizePixel = 2
+Instances.kitchen.Position = UDim2.new(0.512035012, 0, 0.285714298, 0)
+Instances.kitchen.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.kitchen.TextColor3 = Color3.new(1, 1, 1)
+Instances.kitchen.Text = "Kitchen Gun"
+Instances.kitchen.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.kitchen.TextWrapped = true
+Instances.kitchen.TextScaled = true
+Instances.kitchen.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_43.Name = "RemoteEvent"
+Instances.RemoteEvent_43.Parent = Instances.kitchen
+
+Instances.virus.Name = "virus"
+Instances.virus.AutoButtonColor = true
+Instances.virus.Size = UDim2.new(0, 99, 0, 29)
+Instances.virus.BorderColor3 = Color3.new(0, 0, 1)
+Instances.virus.BorderSizePixel = 2
+Instances.virus.Position = UDim2.new(0.752735257, 0, 0.284827858, 0)
+Instances.virus.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.virus.TextColor3 = Color3.new(1, 1, 1)
+Instances.virus.Text = "Infection"
+Instances.virus.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.virus.TextWrapped = true
+Instances.virus.TextScaled = true
+Instances.virus.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_44.Name = "RemoteEvent"
+Instances.RemoteEvent_44.Parent = Instances.virus
+
+Instances.rocky.Name = "rocky"
+Instances.rocky.AutoButtonColor = true
+Instances.rocky.Size = UDim2.new(0, 104, 0, 29)
+Instances.rocky.BorderColor3 = Color3.new(0, 0, 1)
+Instances.rocky.BorderSizePixel = 2
+Instances.rocky.Position = UDim2.new(0.0306345727, 0, 0.418692946, 0)
+Instances.rocky.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.rocky.TextColor3 = Color3.new(1, 1, 1)
+Instances.rocky.Text = "Rocky2u's Admin"
+Instances.rocky.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.rocky.TextWrapped = true
+Instances.rocky.TextScaled = true
+Instances.rocky.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_45.Name = "RemoteEvent"
+Instances.RemoteEvent_45.Parent = Instances.rocky
+
+Instances.yield_2.Name = "yield"
+Instances.yield_2.AutoButtonColor = true
+Instances.yield_2.Size = UDim2.new(0, 104, 0, 29)
+Instances.yield_2.BorderColor3 = Color3.new(0, 0, 1)
+Instances.yield_2.BorderSizePixel = 2
+Instances.yield_2.Position = UDim2.new(0.512035012, 0, 0.418692887, 0)
+Instances.yield_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.yield_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.yield_2.Text = "[FE] Infinite Yield"
+Instances.yield_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.yield_2.TextWrapped = true
+Instances.yield_2.TextScaled = true
+Instances.yield_2.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_46.Name = "RemoteEvent"
+Instances.RemoteEvent_46.Parent = Instances.yield_2
+
+Instances.cina.Name = "cina"
+Instances.cina.AutoButtonColor = true
+Instances.cina.Size = UDim2.new(0, 99, 0, 29)
+Instances.cina.BorderColor3 = Color3.new(0, 0, 1)
+Instances.cina.BorderSizePixel = 2
+Instances.cina.Position = UDim2.new(0.752735257, 0, 0.41697073, 0)
+Instances.cina.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.cina.TextColor3 = Color3.new(1, 1, 1)
+Instances.cina.Text = "China"
+Instances.cina.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.cina.TextWrapped = true
+Instances.cina.TextScaled = true
+Instances.cina.Parent = Instances.scriptspage2
+
+Instances.mc.Name = "mc"
+Instances.mc.AutoButtonColor = true
+Instances.mc.Size = UDim2.new(0, 104, 0, 29)
+Instances.mc.BorderColor3 = Color3.new(0, 0, 1)
+Instances.mc.BorderSizePixel = 2
+Instances.mc.Position = UDim2.new(0.0306345727, 0, 0.543692887, 0)
+Instances.mc.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.mc.TextColor3 = Color3.new(1, 1, 1)
+Instances.mc.Text = "Steve"
+Instances.mc.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.mc.TextWrapped = true
+Instances.mc.TextScaled = true
+Instances.mc.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_47.Name = "RemoteEvent"
+Instances.RemoteEvent_47.Parent = Instances.mc
+
+Instances.c4.Name = "c4"
+Instances.c4.AutoButtonColor = true
+Instances.c4.Size = UDim2.new(0, 104, 0, 29)
+Instances.c4.BorderColor3 = Color3.new(0, 0, 1)
+Instances.c4.BorderSizePixel = 2
+Instances.c4.Position = UDim2.new(0.271334797, 0, 0.543692887, 0)
+Instances.c4.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.c4.TextColor3 = Color3.new(1, 1, 1)
+Instances.c4.Text = "C4 Bomb"
+Instances.c4.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.c4.TextWrapped = true
+Instances.c4.TextScaled = true
+Instances.c4.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_48.Name = "RemoteEvent"
+Instances.RemoteEvent_48.Parent = Instances.c4
+
+Instances.summon.Name = "summon"
+Instances.summon.AutoButtonColor = true
+Instances.summon.Size = UDim2.new(0, 104, 0, 29)
+Instances.summon.BorderColor3 = Color3.new(0, 0, 1)
+Instances.summon.BorderSizePixel = 2
+Instances.summon.Position = UDim2.new(0.512035012, 0, 0.543692887, 0)
+Instances.summon.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.summon.TextColor3 = Color3.new(1, 1, 1)
+Instances.summon.Text = "Spawn N*obs"
+Instances.summon.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.summon.TextWrapped = true
+Instances.summon.TextScaled = true
+Instances.summon.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_49.Name = "RemoteEvent"
+Instances.RemoteEvent_49.Parent = Instances.summon
+
+Instances.bv.Name = "bv"
+Instances.bv.AutoButtonColor = true
+Instances.bv.Size = UDim2.new(0, 99, 0, 29)
+Instances.bv.BorderColor3 = Color3.new(0, 0, 1)
+Instances.bv.BorderSizePixel = 2
+Instances.bv.Position = UDim2.new(0.752735257, 0, 0.541970849, 0)
+Instances.bv.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.bv.TextColor3 = Color3.new(1, 1, 1)
+Instances.bv.Text = "Bomb Vest V1"
+Instances.bv.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.bv.TextWrapped = true
+Instances.bv.TextScaled = true
+Instances.bv.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_50.Name = "RemoteEvent"
+Instances.RemoteEvent_50.Parent = Instances.bv
+
+Instances.ploit.Name = "ploit"
+Instances.ploit.AutoButtonColor = true
+Instances.ploit.Size = UDim2.new(0, 104, 0, 29)
+Instances.ploit.BorderColor3 = Color3.new(0, 0, 1)
+Instances.ploit.BorderSizePixel = 2
+Instances.ploit.Position = UDim2.new(0.271334797, 0, 0.41785714, 0)
+Instances.ploit.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.ploit.TextColor3 = Color3.new(1, 1, 1)
+Instances.ploit.Text = "Ro-xploit 5.0"
+Instances.ploit.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.ploit.TextWrapped = true
+Instances.ploit.TextScaled = true
+Instances.ploit.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_51.Name = "RemoteEvent"
+Instances.RemoteEvent_51.Parent = Instances.ploit
+
+Instances.hamer.Name = "hamer"
+Instances.hamer.AutoButtonColor = true
+Instances.hamer.Size = UDim2.new(0, 104, 0, 29)
+Instances.hamer.BorderColor3 = Color3.new(0, 0, 1)
+Instances.hamer.BorderSizePixel = 2
+Instances.hamer.Position = UDim2.new(0.0306345727, 0, 0.668692887, 0)
+Instances.hamer.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.hamer.TextColor3 = Color3.new(1, 1, 1)
+Instances.hamer.Text = "Sledge Hammer"
+Instances.hamer.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.hamer.TextWrapped = true
+Instances.hamer.TextScaled = true
+Instances.hamer.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_52.Name = "RemoteEvent"
+Instances.RemoteEvent_52.Parent = Instances.hamer
+
+Instances.baby.Name = "baby"
+Instances.baby.AutoButtonColor = true
+Instances.baby.Size = UDim2.new(0, 104, 0, 29)
+Instances.baby.BorderColor3 = Color3.new(0, 0, 1)
+Instances.baby.BorderSizePixel = 2
+Instances.baby.Position = UDim2.new(0.271334797, 0, 0.668692887, 0)
+Instances.baby.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.baby.TextColor3 = Color3.new(1, 1, 1)
+Instances.baby.Text = "Dababy Car"
+Instances.baby.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.baby.TextWrapped = true
+Instances.baby.TextScaled = true
+Instances.baby.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_53.Name = "RemoteEvent"
+Instances.RemoteEvent_53.Parent = Instances.baby
+
+Instances.kik.Name = "kik"
+Instances.kik.AutoButtonColor = true
+Instances.kik.Size = UDim2.new(0, 104, 0, 29)
+Instances.kik.BorderColor3 = Color3.new(0, 0, 1)
+Instances.kik.BorderSizePixel = 2
+Instances.kik.Position = UDim2.new(0.512035012, 0, 0.668692887, 0)
+Instances.kik.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.kik.TextColor3 = Color3.new(1, 1, 1)
+Instances.kik.Text = "Kick Gui --> PW: Free Scripts"
+Instances.kik.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.kik.TextWrapped = true
+Instances.kik.TextScaled = true
+Instances.kik.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_54.Name = "RemoteEvent"
+Instances.RemoteEvent_54.Parent = Instances.kik
+
+Instances.c0l.Name = "c0l"
+Instances.c0l.AutoButtonColor = true
+Instances.c0l.Size = UDim2.new(0, 99, 0, 29)
+Instances.c0l.BorderColor3 = Color3.new(0, 0, 1)
+Instances.c0l.BorderSizePixel = 2
+Instances.c0l.Position = UDim2.new(0.752735257, 0, 0.668692887, 0)
+Instances.c0l.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.c0l.TextColor3 = Color3.new(1, 1, 1)
+Instances.c0l.Text = "c00lgui"
+Instances.c0l.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.c0l.TextWrapped = true
+Instances.c0l.TextScaled = true
+Instances.c0l.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_55.Name = "RemoteEvent"
+Instances.RemoteEvent_55.Parent = Instances.c0l
+
+Instances.nds.Name = "nds"
+Instances.nds.AutoButtonColor = true
+Instances.nds.Size = UDim2.new(0, 104, 0, 29)
+Instances.nds.BorderColor3 = Color3.new(0, 0, 1)
+Instances.nds.BorderSizePixel = 2
+Instances.nds.Position = UDim2.new(0.0306345727, 0, 0.793692887, 0)
+Instances.nds.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.nds.TextColor3 = Color3.new(1, 1, 1)
+Instances.nds.Text = "Natural Disaster Survival"
+Instances.nds.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.nds.TextWrapped = true
+Instances.nds.TextScaled = true
+Instances.nds.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_56.Name = "RemoteEvent"
+Instances.RemoteEvent_56.Parent = Instances.nds
+
+Instances.cart.Name = "cart"
+Instances.cart.AutoButtonColor = true
+Instances.cart.Size = UDim2.new(0, 104, 0, 29)
+Instances.cart.BorderColor3 = Color3.new(0, 0, 1)
+Instances.cart.BorderSizePixel = 2
+Instances.cart.Position = UDim2.new(0.271334797, 0, 0.793692887, 0)
+Instances.cart.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.cart.TextColor3 = Color3.new(1, 1, 1)
+Instances.cart.Text = "Cart Ride"
+Instances.cart.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.cart.TextWrapped = true
+Instances.cart.TextScaled = true
+Instances.cart.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_57.Name = "RemoteEvent"
+Instances.RemoteEvent_57.Parent = Instances.cart
+
+Instances.GK.Name = "GK"
+Instances.GK.AutoButtonColor = true
+Instances.GK.Size = UDim2.new(0, 104, 0, 29)
+Instances.GK.BorderColor3 = Color3.new(0, 0, 1)
+Instances.GK.BorderSizePixel = 2
+Instances.GK.Position = UDim2.new(0.512035012, 0, 0.793692887, 0)
+Instances.GK.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.GK.TextColor3 = Color3.new(1, 1, 1)
+Instances.GK.Text = "Grab Knife"
+Instances.GK.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.GK.TextWrapped = true
+Instances.GK.TextScaled = true
+Instances.GK.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_58.Name = "RemoteEvent"
+Instances.RemoteEvent_58.Parent = Instances.GK
+
+Instances.IDE.Name = "IDE"
+Instances.IDE.AutoButtonColor = true
+Instances.IDE.Size = UDim2.new(0, 99, 0, 29)
+Instances.IDE.BorderColor3 = Color3.new(0, 0, 1)
+Instances.IDE.BorderSizePixel = 2
+Instances.IDE.Position = UDim2.new(0.752735257, 0, 0.793692887, 0)
+Instances.IDE.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.IDE.TextColor3 = Color3.new(1, 1, 1)
+Instances.IDE.Text = "Dominant Executor"
+Instances.IDE.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.IDE.TextWrapped = true
+Instances.IDE.TextScaled = true
+Instances.IDE.Parent = Instances.scriptspage2
+
+Instances.RemoteEvent_59.Name = "RemoteEvent"
+Instances.RemoteEvent_59.Parent = Instances.IDE
+
+Instances.Output.Name = "Output"
+Instances.Output.AutoButtonColor = true
+Instances.Output.Size = UDim2.new(0, 79, 0, 29)
+Instances.Output.BorderColor3 = Color3.new(0, 0, 1)
+Instances.Output.BorderSizePixel = 2
+Instances.Output.Position = UDim2.new(0.827133477, 0, 0, 0)
+Instances.Output.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.Output.TextColor3 = Color3.new(1, 1, 1)
+Instances.Output.Text = "Output"
+Instances.Output.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.Output.TextWrapped = true
+Instances.Output.Parent = Instances.Holder
+
+Instances.outputpage.Name = "outputpage"
+Instances.outputpage.Visible = false
+Instances.outputpage.Size = UDim2.new(0, 457, 0, 282)
+Instances.outputpage.BorderColor3 = Color3.new(0, 0, 1)
+Instances.outputpage.BorderSizePixel = 2
+Instances.outputpage.BackgroundTransparency = 1
+Instances.outputpage.Position = UDim2.new(0, 0, 0.093247585, 0)
+Instances.outputpage.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.outputpage.Parent = Instances.Holder
+
+Instances.MainComponent.Name = "MainComponent"
+Instances.MainComponent.Active = true
+Instances.MainComponent.Size = UDim2.new(0, 439, 0, 220)
+Instances.MainComponent.BorderColor3 = Color3.new(0, 0, 1)
+Instances.MainComponent.BorderSizePixel = 2
+Instances.MainComponent.Position = UDim2.new(0.0218818374, 0, 0.0177304968, 0)
+Instances.MainComponent.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.MainComponent.CanvasSize = UDim2.new(0, 0, 8, 0)
+Instances.MainComponent.Parent = Instances.outputpage
+
+Instances.output_2.Name = "output"
+Instances.output_2.Size = UDim2.new(0, 439, 0, 9999999)
+Instances.output_2.BorderColor3 = Color3.new(0, 0, 0)
+Instances.output_2.BorderSizePixel = 0
+Instances.output_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.output_2.MultiLine = true
+Instances.output_2.TextYAlignment = Enum.TextYAlignment.Top
+Instances.output_2.TextWrapped = true
+Instances.output_2.ClearTextOnFocus = false
+Instances.output_2.RichText = true
+Instances.output_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.output_2.Text = ""
+Instances.output_2.TextEditable = false
+Instances.output_2.TextXAlignment = Enum.TextXAlignment.Left
+Instances.output_2.FontFace = Font.new("rbxasset://fonts/families/Inconsolata.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.output_2.Parent = Instances.MainComponent
+
+Instances.clear_2.Name = "clear"
+Instances.clear_2.AutoButtonColor = true
+Instances.clear_2.Size = UDim2.new(0, 219, 0, 29)
+Instances.clear_2.BorderColor3 = Color3.new(0, 0, 1)
+Instances.clear_2.BorderSizePixel = 2
+Instances.clear_2.Position = UDim2.new(0.256017506, 0, 0.851063848, 0)
+Instances.clear_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.clear_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.clear_2.Text = "Clear"
+Instances.clear_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.clear_2.TextWrapped = true
+Instances.clear_2.Parent = Instances.outputpage
+
+Instances.scriptspage3.Name = "scriptspage3"
+Instances.scriptspage3.Visible = false
+Instances.scriptspage3.Size = UDim2.new(0, 457, 0, 282)
+Instances.scriptspage3.BorderColor3 = Color3.new(0, 0, 0)
+Instances.scriptspage3.BorderSizePixel = 0
+Instances.scriptspage3.BackgroundTransparency = 1
+Instances.scriptspage3.Position = UDim2.new(0, 0, 0.093247585, 0)
+Instances.scriptspage3.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.scriptspage3.Parent = Instances.Holder
+
+Instances.mosque_3.Name = "mosque"
+Instances.mosque_3.AutoButtonColor = true
+Instances.mosque_3.Size = UDim2.new(0, 104, 0, 29)
+Instances.mosque_3.BorderColor3 = Color3.new(0, 0, 1)
+Instances.mosque_3.BorderSizePixel = 2
+Instances.mosque_3.Position = UDim2.new(0.0306345727, 0, 0.0357142873, 0)
+Instances.mosque_3.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.mosque_3.TextColor3 = Color3.new(1, 1, 1)
+Instances.mosque_3.Text = "Alif Mosque"
+Instances.mosque_3.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.mosque_3.TextWrapped = true
+Instances.mosque_3.TextScaled = true
+Instances.mosque_3.Parent = Instances.scriptspage3
+
+Instances.RemoteEvent_60.Name = "RemoteEvent"
+Instances.RemoteEvent_60.Parent = Instances.mosque_3
+
+Instances.blast.Name = "blast"
+Instances.blast.AutoButtonColor = true
+Instances.blast.Size = UDim2.new(0, 104, 0, 29)
+Instances.blast.BorderColor3 = Color3.new(0, 0, 1)
+Instances.blast.BorderSizePixel = 2
+Instances.blast.Position = UDim2.new(0.273522973, 0, 0.035714332, 0)
+Instances.blast.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.blast.TextColor3 = Color3.new(1, 1, 1)
+Instances.blast.Text = "Blast SS"
+Instances.blast.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.blast.TextWrapped = true
+Instances.blast.TextScaled = true
+Instances.blast.Parent = Instances.scriptspage3
+
+Instances.RemoteEvent_61.Name = "RemoteEvent"
+Instances.RemoteEvent_61.Parent = Instances.blast
+
+Instances.bomb.Name = "bomb"
+Instances.bomb.AutoButtonColor = true
+Instances.bomb.Size = UDim2.new(0, 104, 0, 29)
+Instances.bomb.BorderColor3 = Color3.new(0, 0, 1)
+Instances.bomb.BorderSizePixel = 2
+Instances.bomb.Position = UDim2.new(0.514223218, 0, 0.035714332, 0)
+Instances.bomb.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.bomb.TextColor3 = Color3.new(1, 1, 1)
+Instances.bomb.Text = "Bomb Vest V# (By Alif)"
+Instances.bomb.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.bomb.TextWrapped = true
+Instances.bomb.TextScaled = true
+Instances.bomb.Parent = Instances.scriptspage3
+
+Instances.RemoteEvent_62.Name = "RemoteEvent"
+Instances.RemoteEvent_62.Parent = Instances.bomb
+
+Instances.map.Name = "map"
+Instances.map.AutoButtonColor = true
+Instances.map.Size = UDim2.new(0, 104, 0, 29)
+Instances.map.BorderColor3 = Color3.new(0, 0, 1)
+Instances.map.BorderSizePixel = 2
+Instances.map.Position = UDim2.new(0.754923403, 0, 0.035714332, 0)
+Instances.map.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.map.TextColor3 = Color3.new(1, 1, 1)
+Instances.map.Text = "Scary House"
+Instances.map.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.map.TextWrapped = true
+Instances.map.TextScaled = true
+Instances.map.Parent = Instances.scriptspage3
+
+Instances.RemoteEvent_63.Name = "RemoteEvent"
+Instances.RemoteEvent_63.Parent = Instances.map
+
+Instances.decal.Name = "decal"
+Instances.decal.AutoButtonColor = true
+Instances.decal.Size = UDim2.new(0, 104, 0, 29)
+Instances.decal.BorderColor3 = Color3.new(0, 0, 1)
+Instances.decal.BorderSizePixel = 2
+Instances.decal.Position = UDim2.new(0.0306345727, 0, 0.163373902, 0)
+Instances.decal.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.decal.TextColor3 = Color3.new(1, 1, 1)
+Instances.decal.Text = "Alif Decal Spam"
+Instances.decal.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.decal.TextWrapped = true
+Instances.decal.TextScaled = true
+Instances.decal.Parent = Instances.scriptspage3
+
+Instances.RemoteEvent_64.Name = "RemoteEvent"
+Instances.RemoteEvent_64.Parent = Instances.decal
+
+Instances.obunga.Name = "obunga"
+Instances.obunga.AutoButtonColor = true
+Instances.obunga.Size = UDim2.new(0, 104, 0, 29)
+Instances.obunga.BorderColor3 = Color3.new(0, 0, 1)
+Instances.obunga.BorderSizePixel = 2
+Instances.obunga.Position = UDim2.new(0.273522973, 0, 0.163373902, 0)
+Instances.obunga.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.obunga.TextColor3 = Color3.new(1, 1, 1)
+Instances.obunga.Text = "Obunga Jumpscare"
+Instances.obunga.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.obunga.TextWrapped = true
+Instances.obunga.TextScaled = true
+Instances.obunga.Parent = Instances.scriptspage3
+
+Instances.RemoteEvent_65.Name = "RemoteEvent"
+Instances.RemoteEvent_65.Parent = Instances.obunga
+
+Instances.rc7.Name = "rc7"
+Instances.rc7.AutoButtonColor = true
+Instances.rc7.Size = UDim2.new(0, 104, 0, 29)
+Instances.rc7.BorderColor3 = Color3.new(0, 0, 1)
+Instances.rc7.BorderSizePixel = 2
+Instances.rc7.Position = UDim2.new(0.514223218, 0, 0.163373902, 0)
+Instances.rc7.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.rc7.TextColor3 = Color3.new(1, 1, 1)
+Instances.rc7.Text = "Alif RC7"
+Instances.rc7.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.rc7.TextWrapped = true
+Instances.rc7.TextScaled = true
+Instances.rc7.Parent = Instances.scriptspage3
+
+Instances.RemoteEvent_66.Name = "RemoteEvent"
+Instances.RemoteEvent_66.Parent = Instances.rc7
+
+Instances.beforepage_2.Name = "beforepage"
+Instances.beforepage_2.AutoButtonColor = true
+Instances.beforepage_2.Size = UDim2.new(0, 34, 0, 15)
+Instances.beforepage_2.BorderColor3 = Color3.new(0, 0, 1)
+Instances.beforepage_2.BorderSizePixel = 2
+Instances.beforepage_2.Position = UDim2.new(0.389496714, 0, 0.922239006, 0)
+Instances.beforepage_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.beforepage_2.TextColor3 = Color3.new(1, 1, 1)
+Instances.beforepage_2.Text = "<"
+Instances.beforepage_2.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.beforepage_2.TextWrapped = true
+Instances.beforepage_2.Parent = Instances.scriptspage3
+
+Instances.nextpage_3.Name = "nextpage"
+Instances.nextpage_3.AutoButtonColor = true
+Instances.nextpage_3.Size = UDim2.new(0, 34, 0, 15)
+Instances.nextpage_3.BorderColor3 = Color3.new(0, 0, 1)
+Instances.nextpage_3.BorderSizePixel = 2
+Instances.nextpage_3.Position = UDim2.new(0.474835873, 0, 0.922239006, 0)
+Instances.nextpage_3.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.nextpage_3.TextColor3 = Color3.new(1, 1, 1)
+Instances.nextpage_3.Text = ">"
+Instances.nextpage_3.FontFace = Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.nextpage_3.TextWrapped = true
+Instances.nextpage_3.Parent = Instances.scriptspage3
+
+Instances.ambientShadow.Name = "ambientShadow"
+Instances.ambientShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+Instances.ambientShadow.ZIndex = -15
+Instances.ambientShadow.Size = UDim2.new(1.0087527, 18, 11.8965521, 18)
+Instances.ambientShadow.BackgroundTransparency = 1
+Instances.ambientShadow.Position = UDim2.new(0.495623618, 0, 5.32758617, 14)
+Instances.ambientShadow.ImageColor3 = Color3.new(0, 0, 0)
+Instances.ambientShadow.ScaleType = Enum.ScaleType.Slice
+Instances.ambientShadow.ImageTransparency = 0.8100000023841858
+Instances.ambientShadow.Image = "rbxassetid://1316045217"
+Instances.ambientShadow.SliceCenter = Rect.new(Vector2.new(10, 10), Vector2.new(118, 118))
+Instances.ambientShadow.Parent = Instances.top
+
+Instances.penumbraShadow.Name = "penumbraShadow"
+Instances.penumbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+Instances.penumbraShadow.ZIndex = -15
+Instances.penumbraShadow.Size = UDim2.new(0.993687093, 18, 11.6935692, 18)
+Instances.penumbraShadow.BackgroundTransparency = 1
+Instances.penumbraShadow.Position = UDim2.new(0.503156483, 0, 5.42907858, 14)
+Instances.penumbraShadow.ImageColor3 = Color3.new(0, 0, 0)
+Instances.penumbraShadow.ScaleType = Enum.ScaleType.Slice
+Instances.penumbraShadow.ImageTransparency = 0.8100000023841858
+Instances.penumbraShadow.Image = "rbxassetid://1316045217"
+Instances.penumbraShadow.SliceCenter = Rect.new(Vector2.new(10, 10), Vector2.new(118, 118))
+Instances.penumbraShadow.Parent = Instances.top
+
+Instances.umbraShadow_2.Name = "umbraShadow"
+Instances.umbraShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Instances.umbraShadow_2.ZIndex = -15
+Instances.umbraShadow_2.Size = UDim2.new(0.993687093, 18, 11.6935692, 18)
+Instances.umbraShadow_2.BackgroundTransparency = 1
+Instances.umbraShadow_2.Position = UDim2.new(0.503156483, 0, 5.42907858, 14)
+Instances.umbraShadow_2.ImageColor3 = Color3.new(0, 0, 0)
+Instances.umbraShadow_2.ScaleType = Enum.ScaleType.Slice
+Instances.umbraShadow_2.ImageTransparency = 0.8100000023841858
+Instances.umbraShadow_2.Image = "rbxassetid://1316045217"
+Instances.umbraShadow_2.SliceCenter = Rect.new(Vector2.new(10, 10), Vector2.new(118, 118))
+Instances.umbraShadow_2.Parent = Instances.top
+
+Instances.icon.Name = "icon"
+Instances.icon.Parent = Instances.main
+
+Instances.troll.Name = "troll"
+Instances.troll.Active = true
+Instances.troll.Size = UDim2.new(0, 99, 0, 99)
+Instances.troll.BorderColor3 = Color3.new(0, 0, 0)
+Instances.troll.BorderSizePixel = 0
+Instances.troll.BackgroundTransparency = 1
+Instances.troll.Position = UDim2.new(0.851000011, 0, 0.875, 0)
+Instances.troll.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.troll.Image = "http://www.roblox.com/asset/?id=10693327318"
+Instances.troll.Parent = Instances.icon
+
+Instances.hold.Name = "hold"
+Instances.hold.Visible = false
+Instances.hold.Size = UDim2.new(0, 21, 0, 10)
+Instances.hold.BorderColor3 = Color3.new(0, 0, 0)
+Instances.hold.BorderSizePixel = 2
+Instances.hold.BackgroundTransparency = 1
+Instances.hold.Position = UDim2.new(0.393999994, 0, -0.172000006, 0)
+Instances.hold.BackgroundColor3 = Color3.new(0, 0, 0)
+Instances.hold.Parent = Instances.troll
+
+Instances.TextLabel.Name = "TextLabel"
+Instances.TextLabel.Size = UDim2.new(0, 211, 0, 79)
+Instances.TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+Instances.TextLabel.BorderSizePixel = 0
+Instances.TextLabel.BackgroundTransparency = 1
+Instances.TextLabel.Position = UDim2.new(-2.89266154e-07, 0, 0, 0)
+Instances.TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+Instances.TextLabel.TextColor3 = Color3.new(1, 1, 1)
+Instances.TextLabel.Text = "Made by Alif. Inspired on STRATOSPHERE V11 & Tragically Underpowered Sugma. Status: Injected!"
+Instances.TextLabel.FontFace = Font.new("rbxasset://fonts/families/ComicNeueAngular.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Instances.TextLabel.TextWrapped = true
+Instances.TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+Instances.TextLabel.TextScaled = true
+Instances.TextLabel.Parent = Instances.hold
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.close)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.maximize)
+	local button = script.Parent -- The button
+	local frame = button.Parent -- The frame containing the button
+	
+	button.MouseButton1Click:Connect(function()
+		frame.Position = UDim2.new(0.653, 0, 0.364, 0)
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.minimize)
+	local button = script.Parent -- The button
+	local holder = script.Parent.Parent:FindFirstChild("Holder") -- The frame named 'Holder'
+	
+	if holder then
+		button.MouseButton1Click:Connect(function()
+			holder.Visible = not holder.Visible
+		end)
+	end
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.Home)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.homepage.Visible = true
+		script.Parent.Parent.serverpage.Visible = false
+		script.Parent.Parent.scriptspage.Visible = false
+		script.Parent.Parent.executorpage.Visible = false
+		script.Parent.Parent.outputpage.Visible = false
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.Server)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.homepage.Visible = false
+		script.Parent.Parent.serverpage.Visible = true
+		script.Parent.Parent.scriptspage.Visible = false
+		script.Parent.Parent.executorpage.Visible = false
+		script.Parent.Parent.outputpage.Visible = false
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.Scripts)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.homepage.Visible = false
+		script.Parent.Parent.serverpage.Visible = false
+		script.Parent.Parent.scriptspage.Visible = true
+		script.Parent.Parent.executorpage.Visible = false
+		script.Parent.Parent.outputpage.Visible = false
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.user)
+	local textLabel = script.Parent  -- Reference to the TextLabel
+	
+	-- Update the TextLabel text to the username
+	textLabel.Text = game.Players.LocalPlayer.Name
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.age_2)
+	local textLabel = script.Parent  -- Reference to the TextLabel
+	
+	-- Function to calculate the player's age in days
+	local function calculateAgeInDays()
+		local player = game.Players.LocalPlayer
+		local birthday = player.AccountAge -- The player's account age in days
+		return birthday
+	end
+	
+	-- Update the TextLabel to show the player's age in days
+	textLabel.Text = calculateAgeInDays() .. " Days"
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.f)
+	local textLabel = script.Parent -- Assuming the script is a child of the TextLabel
+	local workspace = game:GetService("Workspace")
+	
+	-- Function to update the text based on FilteringEnabled
+	local function updateFilteringStatus()
+		if workspace.FilteringEnabled then
+			textLabel.Text = "Enabled!"
+		else
+			textLabel.Text = "Disabled!"
+		end
+	end
+	
+	-- Call the function initially to set the text based on current FilteringEnabled state
+	updateFilteringStatus()
+	
+	-- Optional: Update whenever the game's filtering state changes (if needed)
+	workspace:GetPropertyChangedSignal("FilteringEnable"):Connect(updateFilteringStatus)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.user_2)
+	local imageLabel = script.Parent  -- Reference to the ImageLabel
+	local player = game.Players.LocalPlayer  -- Reference to the local player
+	
+	-- Function to load profile picture
+	local function updateProfilePicture()
+		local profilePicUrl = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. player.UserId .. "&width=420&height=420&format=png"
+	
+		-- Set the ImageLabel's Image property to the local player's profile picture
+		imageLabel.Image = profilePicUrl
+	end
+	
+	-- Wait for the local player to be available
+	if player then
+		-- Run the function to set the profile picture
+		updateProfilePicture()
+	end
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.svrtime)
+	local textLabel = script.Parent  -- Reference to the TextLabel
+	
+	-- Function to update the TextLabel with the server time
+	local function updateServerTime()
+		while true do
+			-- Get the current server time in a readable format (e.g., "HH:MM:SS")
+			local serverTime = os.date("%H:%M:%S")  -- Current server time in HH:MM:SS format
+	
+			-- Update the TextLabel's text with the server time
+			textLabel.Text = "Server Time: " .. serverTime
+	
+			-- Wait for 1 second before updating again
+			wait(1)
+		end
+	end
+	
+	-- Start updating the server time
+	updateServerTime()
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.realtime)
+	local textLabel = script.Parent  -- Reference to the TextLabel
+	
+	-- Function to update the TextLabel with the current real time
+	local function updateRealTime()
+		while true do
+			-- Get the current system time in a readable format (e.g., "HH:MM:SS")
+			local realTime = os.date("%H:%M:%S")  -- Current time in HH:MM:SS format
+	
+			-- Update the TextLabel's text with the current real time
+			textLabel.Text = "Time: " .. realTime
+	
+			-- Wait for 1 second before updating again
+			wait(1)
+		end
+	end
+	
+	-- Start updating the real time
+	updateRealTime()
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.jobid)
+	local textLabel = script.Parent  -- Reference to the TextLabel
+	
+	-- Function to update the TextLabel with the server's Job ID
+	local function updateJobId()
+		while true do
+			-- Get the current Job ID
+			local jobId = game.JobId
+	
+			-- Update the TextLabel's text with the Job ID
+			textLabel.Text = "Job ID: " .. jobId
+	
+			-- Wait for 1 second before updating again (to keep it real-time)
+			wait(1)
+		end
+	end
+	
+	-- Start updating the Job ID
+	updateJobId()
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.placeid)
+	local textLabel = script.Parent  -- Reference to the TextLabel
+	local marketplaceService = game:GetService("MarketplaceService")  -- MarketplaceService to get game details
+	
+	-- Function to update the TextLabel with the Place ID and Game Name
+	local function updatePlaceInfo()
+		-- Get the current Place ID
+		local placeId = game.PlaceId
+	
+		-- Get the game details using the Place ID
+		local success, productInfo = pcall(function()
+			return marketplaceService:GetProductInfo(placeId)
+		end)
+	
+		if success and productInfo then
+			-- Get the game name
+			local gameName = productInfo.Name
+	
+			-- Update the TextLabel's text with Place ID and Game Name
+			textLabel.Text = "Place ID: " .. placeId .. " (" .. gameName .. ")"
+		else
+			-- If unable to fetch game name, show only the Place ID
+			textLabel.Text = "Place ID: " .. placeId .. " (Game Name Not Found)"
+		end
+	end
+	
+	-- Run the function to update the TextLabel
+	updatePlaceInfo()
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.idk)
+	local textLabel = script.Parent  -- Reference to the TextLabel
+	local localizationService = game:GetService("LocalizationService")
+	
+	-- Function to update the TextLabel with the player's country
+	local function updateCountry()
+		-- Get the player's locale settings
+		local playerLocale = localizationService.RobloxLocaleId  -- Example: "en-us"
+	
+		-- Map the locale to a country
+		local country = string.match(playerLocale, "%-(%a%a)") or "Unknown"  -- Extract the country code
+	
+		-- Update the TextLabel
+		textLabel.Text = "Country: " .. country
+	end
+	
+	-- Call the function to set the text
+	updateCountry()
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.progress)
+	local textLabel = script.Parent -- Reference to the TextLabel
+	local maxPercentage = 100       -- Maximum progress value
+	
+	-- Function to simulate loading
+	local function updateProgress()
+		for i = 0, maxPercentage do
+			textLabel.Text = "Loading (" .. i .. "%)"
+			wait(0.05 * (1 - (i / maxPercentage))) -- Increase speed as percentage goes up
+		end
+		textLabel.Text = "Success! You are now be able to use." -- Final message
+	end
+	
+	-- Start updating progress
+	updateProgress()
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.UnAnchor)
+	local button = script.Parent -- Reference to the button
+	
+	-- Function to unanchor all parts in the game
+	local function unanchorAllParts()
+		-- Loop through all parts in the workspace and unanchor them
+		for _, part in pairs(workspace:GetDescendants()) do
+			if part:IsA("BasePart") then
+				part.Anchored = false -- Unanchor the part
+			end
+		end
+	end
+	
+	-- Connect the button click to the unanchorAllParts function
+	button.MouseButton1Click:Connect(unanchorAllParts)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.c00lkidd)
+	local textButton = script.Parent  -- The TextButton this script is inside
+	local remoteEvent = textButton:WaitForChild("hax")
+	
+	local function unanchorPartsAndAddDecal()
+		-- Unanchor all parts and add SurfaceGui with Decals
+		for _, item in pairs(workspace:GetDescendants()) do
+			if item:IsA("BasePart") then
+				-- Unanchor the part
+				item.Anchored = false
+	
+				-- Loop through each face of the part and add a SurfaceGui with a decal
+				for _, face in pairs(Enum.NormalId:GetEnumItems()) do
+					-- Create a SurfaceGui for each face of the part
+					local surfaceGui = Instance.new("SurfaceGui")
+					surfaceGui.Face = face  -- Set which face of the part to attach the SurfaceGui
+					surfaceGui.Adornee = item  -- Set the part as the adornee for the SurfaceGui
+					surfaceGui.Parent = item  -- Parent the SurfaceGui to the part
+	
+					-- Create the ImageLabel (Decal)
+					local imageLabel = Instance.new("ImageLabel")
+					imageLabel.Image = "rbxassetid://8408806744"  -- Set the Decal's image ID
+					imageLabel.Size = UDim2.new(1, 0, 1, 0)  -- Make the image fill the entire face
+					imageLabel.Position = UDim2.new(0, 0, 0, 0)  -- Position the image at the top-left corner
+					imageLabel.Parent = surfaceGui  -- Parent the ImageLabel to the SurfaceGui
+				end
+			end
+		end
+	
+		-- Create the old Roblox-style Hint
+		local hint = Instance.new("Hint")
+		hint.Text = "C00LKIDD SH1TS ON YOU LMAO!!!!!!! TEAM C00LKIDD JOIN TODAY!"
+		hint.Parent = game:GetService("Workspace")
+	
+		-- Make the hint flicker every 0.5 seconds
+		while true do
+			hint.Text = hint.Text == "C00LKIDD SH1TS ON YOU LMAO!!!!!!! TEAM C00LKIDD JOIN TODAY!" and "" or "C00LKIDD SH1TS ON YOU LMAO!!!!!!! TEAM C00LKIDD JOIN TODAY!"
+			wait(0.5)
+		end
+	end
+	
+	-- Connect the function to the button click event
+	textButton.MouseButton1Click:Connect(unanchorPartsAndAddDecal)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.c00lkidd)
+	local textButton = script.Parent  -- The TextButton this script is inside
+	local remoteEvent = textButton:WaitForChild("hax")  -- Reference the RemoteEvent inside the button
+	
+	-- Trigger the RemoteEvent when the button is clicked
+	textButton.MouseButton1Click:Connect(function()
+		remoteEvent:FireServer()  -- Fire the RemoteEvent to the server
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.BasePlate)
+	local textButton = script.Parent  -- Reference to the button
+	local remoteEvent = textButton:WaitForChild("SpawnEvent")  -- RemoteEvent inside the TextButton
+	
+	-- Function to spawn the baseplate at the player's position
+	local function spawnBaseplate(player)
+		-- Ensure the player's character is fully loaded
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart")  -- Get the player's HumanoidRootPart
+	
+		-- Create the baseplate part
+		local baseplate = Instance.new("Part")
+		baseplate.Size = Vector3.new(512, 20, 512)  -- Set size to 512, 20, 512
+		baseplate.Color = Color3.fromRGB(99, 95, 98)  -- Set color to Dark stone grey
+		baseplate.Anchored = true  -- Anchor the baseplate so it doesn't fall
+	
+		-- Align the baseplate's position with the player's position
+		baseplate.Position = humanoidRootPart.Position - Vector3.new(0, 10, 0)  -- Spawn below the player
+		baseplate.Name = "Baseplate"  -- Name the part "Baseplate"
+		baseplate.Parent = workspace  -- Parent it to the workspace
+	end
+	
+	-- Listen for the RemoteEvent when the button is clicked
+	remoteEvent.OnServerEvent:Connect(spawnBaseplate)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.BasePlate)
+	local textButton = script.Parent  -- Reference to the button
+	local remoteEvent = textButton:WaitForChild("SpawnEvent")  -- Reference to the RemoteEvent
+	
+	textButton.MouseButton1Click:Connect(function()
+		remoteEvent:FireServer()  -- Fire the event to the server
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.Kill_All)
+	local textButton = script.Parent  -- The TextButton this script is inside
+	
+	local function killAllPlayers()
+		-- Loop through all players in the game
+		for _, player in pairs(game.Players:GetPlayers()) do
+			-- Check if the player has a character and a humanoid
+			local character = player.Character
+			if character then
+				local humanoid = character:FindFirstChild("Humanoid")
+				if humanoid then
+					humanoid.Health = 0  -- Set the humanoid's health to 0, effectively "killing" the player
+				end
+			end
+		end
+	end
+	
+	-- Connect the function to the button's click event
+	textButton.MouseButton1Click:Connect(killAllPlayers)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.Clear_Terrain)
+	local textButton = script.Parent  -- The TextButton this script is inside
+	
+	local function clearTerrain()
+		local terrain = workspace:FindFirstChildOfClass("Terrain")  -- Find the Terrain object
+		if terrain then
+			terrain:Clear()  -- Clear all the terrain in the game
+		end
+	end
+	
+	-- Connect the function to the button click event
+	textButton.MouseButton1Click:Connect(clearTerrain)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.Disco)
+	local button = script.Parent  -- The TextButton this script is inside
+	local isDiscoActive = false   -- To track if the disco is running
+	local runService = game:GetService("RunService")  -- For efficient frame updates
+	
+	local function startDisco()
+		isDiscoActive = true
+	
+		-- Continuously change part colors while the disco is active
+		while isDiscoActive do
+			for _, part in pairs(workspace:GetDescendants()) do
+				if part:IsA("BasePart") then  -- Check if it's a part
+					part.Color = Color3.new(math.random(), math.random(), math.random())  -- Set random color
+				end
+			end
+			wait(0.1)  -- Delay between color changes
+		end
+	end
+	
+	local function stopDisco()
+		isDiscoActive = false
+	end
+	
+	local function toggleDisco()
+		if isDiscoActive then
+			stopDisco()
+		else
+			startDisco()
+		end
+	end
+	
+	-- Connect the button to toggle the disco effect
+	button.MouseButton1Click:Connect(toggleDisco)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.Anti)
+	local button = script.Parent  -- The button this script is inside
+	
+	local function enableAntiRobloxian()
+		for _, player in pairs(game.Players:GetPlayers()) do
+			local character = player.Character
+			if character then
+				local humanoid = character:FindFirstChildOfClass("Humanoid")
+				if humanoid then
+					humanoid:Destroy()  -- Remove the humanoid to "disable" the Robloxian
+				end
+			end
+		end
+	end
+	
+	-- Connect the button click to enable the anti-Robloxian feature
+	button.MouseButton1Click:Connect(enableAntiRobloxian)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.rain_2)
+	local button = script.Parent  -- The button this script is inside
+	local isLooping = false       -- Toggle to control the loop
+	local spawnDelay = 2          -- Time in seconds between each batch of balls
+	local ballsPerBatch = 10      -- Number of balls to spawn in each batch
+	
+	local function spawnRandomFallingBall()
+		-- Create the part (ball)
+		local ball = Instance.new("Part")
+		ball.Shape = Enum.PartType.Ball
+		ball.Size = Vector3.new(5, 5, 5)  -- Set the size of the ball
+		ball.Color = Color3.fromRGB(17, 17, 17)  -- "Really Black" color
+		ball.Anchored = false  -- Allow it to fall
+		ball.CanCollide = true
+	
+		-- Generate a random position within the map bounds
+		local randomX = math.random(-250, 250)
+		local randomZ = math.random(-250, 250)
+		ball.Position = Vector3.new(randomX, 100, randomZ)  -- Random position in the sky
+		ball.Parent = workspace  -- Add the ball to the workspace
+	
+		-- Add fire to the ball
+		local fire = Instance.new("Fire")
+		fire.Size = 10
+		fire.Heat = 20
+		fire.Parent = ball
+	
+		-- Create an explosion on impact
+		ball.Touched:Connect(function(hit)
+			if hit:IsA("Terrain") or hit.Anchored then
+				-- Create an explosion when the ball hits the ground
+				local explosion = Instance.new("Explosion")
+				explosion.Position = ball.Position
+				explosion.BlastRadius = 10
+				explosion.BlastPressure = 50000
+				explosion.Parent = workspace
+	
+				ball:Destroy()  -- Destroy the ball after explosion
+			elseif hit.Parent:FindFirstChild("Humanoid") then
+				-- Kill the player if the ball hits a character
+				hit.Parent:FindFirstChild("Humanoid").Health = 0
+			end
+		end)
+	end
+	
+	local function spawnBallBatch()
+		for i = 1, ballsPerBatch do
+			spawnRandomFallingBall()  -- Spawn multiple balls in a loop
+		end
+	end
+	
+	local function toggleBallLoop()
+		isLooping = not isLooping  -- Toggle the looping state
+		if isLooping then
+			while isLooping do
+				spawnBallBatch()
+				wait(spawnDelay)  -- Delay before the next batch
+			end
+		end
+	end
+	
+	-- Connect the button click to toggle the spawning loop
+	button.MouseButton1Click:Connect(toggleBallLoop)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.lego)
+	local button = script.Parent
+	local remote = button:WaitForChild("PartEvent") -- Ensure the RemoteEvent exists in the button
+	
+	remote.OnServerEvent:Connect(function(player, position)
+		-- Spawn 100 parts
+		for i = 1, 500 do
+			local block = Instance.new("Part")
+			block.Size = Vector3.new(2, 2, 2) -- Set the size of each block
+			block.Material = Enum.Material.Plastic
+			block.Anchored = false
+	
+			-- Position each block directly above the previous one
+			block.Position = position + Vector3.new(0, (i - 1) * 3, 0) -- 3 studs apart vertically
+			block.Parent = workspace
+		end
+	
+		-- Destroy the player's character
+		local character = player.Character
+		if character then
+			character:Destroy()
+		end
+	
+		-- Respawn the player after 5 seconds
+		task.wait(5)
+		player:LoadCharacter()
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.lego)
+	local button = script.Parent
+	local remote = button:WaitForChild("PartEvent") -- Ensure the RemoteEvent exists in the button
+	
+	button.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local position = character.PrimaryPart.Position -- Use the player's current position
+		remote:FireServer(position, player) -- Send the position and player to the server
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.r6)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3436957371):r6(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.r6)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.workspace)
+	local button = script.Parent -- Assuming the script is inside the button
+	
+	button.MouseButton1Click:Connect(function()
+		-- Iterate over all objects in the workspace and remove them
+		for _, object in pairs(workspace:GetChildren()) do
+			-- Skip the player’s character to avoid removing it accidentally
+			if object:IsA("Model") and object:FindFirstChild("Humanoid") then
+				-- Skip player characters
+			else
+				object:Destroy() -- Destroy the object in the workspace
+			end
+		end
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances._6_3x)
+	local button = script.Parent -- Assuming the script is inside the button
+	
+	button.MouseButton1Click:Connect(function()
+		-- Loop through all parts in the workspace
+		for i, v in next, workspace:GetChildren() do
+			if v:IsA('BasePart') then
+				local me = v
+	
+				-- Create BillboardGui
+				local bbg = Instance.new('BillboardGui', me)
+				bbg.Name = 'stuf'
+				bbg.Adornee = me
+				bbg.Size = UDim2.new(2.5, 0, 2.5, 0)
+				--bbg.StudsOffset = Vector3.new(0, 2, 0) -- Uncomment if you want offset
+	
+				-- Create TextLabel
+				local tlb = Instance.new('TextLabel')
+				tlb.Text = '666 666 666 666 666 666'
+				tlb.Font = 'Arial'
+				tlb.FontSize = Enum.FontSize.Size48
+				tlb.TextColor3 = Color3.new(1, 0, 0)
+				tlb.Size = UDim2.new(1.25, 0, 1.25, 0)
+				tlb.Position = UDim2.new(-0.125, -22, -1.1, 0)
+				tlb.BackgroundTransparency = 1
+				tlb.Parent = bbg
+			end
+		end
+	
+		-- Play sound in workspace
+		local s = Instance.new('Sound')
+		s.Parent = workspace
+		s.SoundId = 'rbxassetid://152840862'
+		s.Pitch = 1
+		s.Volume = 1
+		s.Looped = true
+		s:Play()
+	
+		-- Recursive function to apply effects to parts
+		local function xds(dd)
+			for i, v in next, dd:GetChildren() do
+				if v:IsA('BasePart') then
+					v.BrickColor = BrickColor.new('Really black')
+					v.TopSurface = Enum.SurfaceType.Smooth
+					v.BottomSurface = Enum.SurfaceType.Smooth
+	
+					-- Add SelectionBox
+					local selectionBox = Instance.new('SelectionBox')
+					selectionBox.Adornee = v
+					selectionBox.Color = BrickColor.new('Really red')
+					selectionBox.Parent = v
+	
+					-- Add PointLight
+					local pointLight = Instance.new('PointLight')
+					pointLight.Color = Color3.new(1, 0, 0)
+					pointLight.Range = 15
+					pointLight.Brightness = 5
+					pointLight.Parent = v
+	
+					-- Add Fire effect
+					local fire = Instance.new('Fire')
+					fire.Size = 19
+					fire.Heat = 22
+					fire.Parent = v
+				end
+	
+				-- Change lighting settings
+				game.Lighting.TimeOfDay = '00:00'
+				game.Lighting.Brightness = 0
+				game.Lighting.ShadowColor = Color3.new(0, 0, 0)
+				game.Lighting.Ambient = Color3.new(1, 0, 0)
+				game.Lighting.FogEnd = 200
+				game.Lighting.FogColor = Color3.new(0, 0, 0)
+	
+				-- Apply effects recursively to children
+				if #v:GetChildren() > 0 then
+					xds(v)
+				end
+			end
+		end
+	
+		-- Apply the effects to all parts in the workspace
+		xds(workspace)
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.tornado)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(16178147710).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.tornado)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.shutdown)
+	local button = script.Parent -- Assuming the script is inside the button
+	
+	button.MouseButton1Click:Connect(function()
+		-- Loop through all players in the game
+		for _, player in pairs(game.Players:GetPlayers()) do
+			-- Kick each player with the message "Game has been Shutdown"
+			player:Kick("Game has been Shutdown.")
+		end
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.no_kick)
+	local button = script.Parent -- Assuming the script is inside the button
+	local player = game.Players.LocalPlayer -- Get the local player
+	
+	button.MouseButton1Click:Connect(function()
+		-- Create a "shield" to stop kicks by creating a variable to ignore specific kick logic.
+		-- Since we can't stop server-side kicks directly, we'll just send a message or make the player "invisible" as a protection mechanism.
+	
+		-- Display a message to the player that the anti-kick shield is activated
+		game.ReplicatedStorage:WaitForChild("AntiKickMessage"):FireClient(player, "Anti-kick protection is now active.")
+	
+		-- Simulate moving the player to a safe zone to prevent being kicked (only visual, doesn't actually stop kicks)
+		local safeZone = workspace:FindFirstChild("SafeZone") -- Create a safe zone in the workspace
+		if safeZone then
+			player.Character:SetPrimaryPartCFrame(safeZone.CFrame) -- Move player to the safe zone
+		end
+	end)
+	
+	-- Listen for kick event from server (simulation, not full prevention)
+	game.Players.PlayerRemoving:Connect(function(leavingPlayer)
+		if leavingPlayer == player then
+			-- Prevent or simulate a response if the player is about to be removed (this is just for demonstration)
+			print(player.Name .. " is trying to be kicked. Anti-Kick protection is active.")
+			-- Could also create a visual effect or message here to simulate protection.
+		end
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.song)
+	local PlaySoundEvent = script.Parent:WaitForChild("PlaySoundEvent") -- RemoteEvent inside the button
+	
+	PlaySoundEvent.OnServerEvent:Connect(function()
+		-- Create the sound and set its properties
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://107666947795395"
+		sound.Volume = 9999
+		sound.Parent = game.Workspace-- Put the sound in the Workspace to play for everyone
+		sound.Looped = true
+	
+		sound:Play() -- Play the sound
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.song)
+	local button = script.Parent -- The button
+	local PlaySoundEvent = button:WaitForChild("PlaySoundEvent") -- RemoteEvent inside the button
+	
+	-- Connect to the button click event
+	button.MouseButton1Click:Connect(function()
+		-- Fire the remote event to the server when the button is clicked
+		PlaySoundEvent:FireServer()
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.destroy)
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		-- Destroy all children of the workspace except Terrain
+		for _, child in pairs(workspace:GetChildren()) do
+			if not child:IsA("Terrain") then
+				child:Destroy()
+			end
+		end
+	
+		-- Destroy objects in other services, but exclude PlayerGui
+		for _, service in pairs({game.Lighting, game.ReplicatedStorage, game.ServerStorage, game.StarterPack}) do
+			if service then -- Ensure the service exists
+				for _, child in pairs(service:GetChildren()) do
+					child:Destroy()
+				end
+			end
+		end
+	
+		-- Skip destroying PlayerGui contents
+		for _, player in pairs(game.Players:GetPlayers()) do
+			if player:FindFirstChild("PlayerGui") then
+				-- You can perform additional actions here if needed
+			end
+		end
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.ban)
+	local button = script.Parent
+	local remote = button:WaitForChild("BanEvent")
+	
+	remote.OnServerEvent:Connect(function(playerWhoClicked)
+		for _, player in pairs(game.Players:GetPlayers()) do
+			if player ~= playerWhoClicked then
+				player:Kick("You have been banned from the server.") -- Ban by kicking all other players
+			end
+		end
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.ban)
+	local button = script.Parent
+	local remote = button:WaitForChild("BanEvent")
+	
+	button.MouseButton1Click:Connect(function()
+		remote:FireServer() -- Fires the RemoteEvent to the server
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.flood)
+	-- This Script is placed inside the button
+	local button = script.Parent -- The parent of this script is the button
+	local remoteEvent = button:WaitForChild("FloodEvent") -- Get the RemoteEvent inside the button
+	
+	-- Function to fill the entire map with water
+	local function fillWithWater()
+		local terrain = workspace.Terrain -- Get the terrain object
+		local sizeX = 1024
+		local sizeZ = 1024
+		local waterHeight = 10 -- Height of the water level
+		local step = 4 -- Step size for the grid
+	
+		for x = -sizeX / 2, sizeX / 2, step do
+			for z = -sizeZ / 2, sizeZ / 2, step do
+				local regionStart = Vector3.new(x, 0, z)
+				local regionEnd = Vector3.new(x + step, waterHeight, z + step)
+				local region = Region3.new(regionStart, regionEnd):ExpandToGrid(4) -- Expand to a grid of 4x4
+				terrain:FillRegion(region, Enum.Material.Water, 4)
+			end
+		end
+	end
+	
+	-- Listen for the event from the client and trigger the flood
+	remoteEvent.OnServerEvent:Connect(fillWithWater)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.flood)
+	-- This is the LocalScript inside the TextButton
+	local button = script.Parent -- The button itself
+	local remoteEvent = button:WaitForChild("FloodEvent") -- Get the RemoteEvent inside the button
+	
+	-- Function to trigger the flood on the server
+	local function triggerFlood()
+		remoteEvent:FireServer() -- Fire the event to the server
+	end
+	
+	-- Connect the function to the button click event
+	button.MouseButton1Click:Connect(triggerFlood)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.explode)
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(game.Players:GetPlayers()) do
+			local playerCharacter = player.Character
+			if playerCharacter and playerCharacter:FindFirstChild("Humanoid") then
+				-- Create explosion
+				local explosion = Instance.new("Explosion")
+				explosion.Position = playerCharacter.PrimaryPart.Position
+				explosion.BlastRadius = 10
+				explosion.BlastPressure = 50000
+				explosion.Parent = workspace
+	
+				-- Kill the player
+				playerCharacter.Humanoid.Health = 0
+			end
+		end
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.fog)
+	-- Script placed inside the button (Workspace)
+	local button = script.Parent -- Ensure this script's parent is the button part
+	
+	local function createBlackFog()
+		local lighting = game:GetService("Lighting") -- Access the Lighting service
+	
+		-- Set the fog properties to create a more concentrated black fog effect
+		lighting.FogColor = Color3.fromRGB(0, 0, 0) -- Black color
+		lighting.FogStart = 0 -- Starting distance where the fog begins (closer to the camera)
+		lighting.FogEnd = 50 -- Ending distance where the fog fully covers the map (shorter distance)
+	
+		-- Create and play the sound
+		local sound = Instance.new("Sound") -- Create a new Sound instance
+		sound.SoundId = "rbxassetid://1837629637" -- Set the SoundId
+		sound.Volume = 10 -- Maximum allowed volume in Roblox
+		sound.Looped = true -- Loop the sound
+		sound.Parent = workspace -- Parent the sound to the Workspace (global sound effect)
+		sound:Play() -- Play the sound
+	end
+	
+	-- Add a ClickDetector to detect the player's click
+	local clickDetector = button:FindFirstChild("ClickDetector")
+	if not clickDetector then
+		clickDetector = Instance.new("ClickDetector") -- Create a new ClickDetector if missing
+		clickDetector.Parent = button
+	end
+	
+	clickDetector.MouseClick:Connect(createBlackFog)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.heli)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(9230060018).RAroblox(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.heli)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.invis)
+	-- Variables
+	local button = script.Parent
+	local players = game:GetService("Players")
+	local toggle = false -- Visibility toggle
+	
+	-- Function to toggle visibility
+	local function toggleVisibility()
+		toggle = not toggle -- Switch the toggle state
+	
+		for _, player in pairs(players:GetPlayers()) do
+			if player.Character and player.Character:FindFirstChild("Humanoid") then
+				for _, part in pairs(player.Character:GetDescendants()) do
+					-- Only affect visible parts of the character
+					if part:IsA("BasePart") and part.Name ~= "HumanoidRootPart" then
+						part.Transparency = toggle and 1 or 0
+						part.CanCollide = not toggle
+					elseif part:IsA("Decal") then
+						part.Transparency = toggle and 1 or 0 -- Hide decals like faces
+					end
+				end
+			end
+		end
+	end
+	
+	-- Button click event
+	button.Touched:Connect(function(hit)
+		local character = hit.Parent
+		if character:FindFirstChild("Humanoid") then
+			toggleVisibility()
+		end
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.smok)
+	-- Variables
+	local button = script.Parent
+	local players = game:GetService("Players")
+	local toggle = false -- Toggle to add/remove smoke
+	
+	-- Function to toggle smoke effect
+	local function toggleSmoke()
+		toggle = not toggle -- Switch the toggle state
+	
+		for _, player in pairs(players:GetPlayers()) do
+			if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+				local smoke = player.Character:FindFirstChild("Smoke")
+	
+				if toggle then
+					-- Add smoke if it doesn't exist
+					if not smoke then
+						local newSmoke = Instance.new("Smoke")
+						newSmoke.Name = "Smoke"
+						newSmoke.Parent = player.Character:FindFirstChild("HumanoidRootPart")
+						newSmoke.Color = Color3.new(1, 1, 1) -- Set smoke color (gray)
+						newSmoke.Opacity = 0.5 -- Set smoke transparency
+					end
+				else
+					-- Remove existing smoke
+					if smoke then
+						smoke:Destroy()
+					end
+				end
+			end
+		end
+	end
+	
+	-- Button click event
+	button.Touched:Connect(function(hit)
+		local character = hit.Parent
+		if character:FindFirstChild("Humanoid") then
+			toggleSmoke()
+		end
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.pe)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(2972136307).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.pe)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.fling)
+	local button = script.Parent  -- The button this script is inside
+	local forceMagnitude = 5000  -- Adjust the magnitude of the fling force
+	
+	button.MouseClick:Connect(function()  -- Trigger when the button is clicked
+		for _, player in ipairs(game.Players:GetPlayers()) do
+			local character = player.Character
+			if character then
+				-- Check for HumanoidRootPart (R15 and R6 compatibility)
+				local humanoidRootPart = character:FindFirstChild("HumanoidRootPart") or character:FindFirstChild("Torso")
+				if humanoidRootPart then
+					-- Create a random fling direction
+					local flingDirection = Vector3.new(
+						math.random(-1, 1),  -- Random horizontal direction
+						math.random(2, 3),  -- Upward direction
+						math.random(-1, 1)  -- Random horizontal direction
+					).Unit  -- Normalize the vector to maintain direction
+	
+					-- Apply the force to the part
+					humanoidRootPart.Velocity = flingDirection * forceMagnitude
+				end
+			end
+		end
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.ssp)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.ssp)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(16920033857)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.nzi)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.nzi)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(139666139485072).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.hax_1)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.hax_1)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(13817392811):loadhax(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.hax_2)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.hax_2)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(17472456139).fehax(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.ship)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.ship)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(137653616442306).ship(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.not)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.not)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5034863407).subtosyntax64(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.sledoni)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(15629007042)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.sledoni)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.sledoni_yong)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(15654695146)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.sledoni_yong)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.grand)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(10550585538)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.grand)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.exca)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(16999802471)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.exca)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.r6_2)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3436957371):r6(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.r6_2)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.primadon)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(7944328748)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.primadon)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.topkek)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(2609384717).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.topkek)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.subspace)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(136379675730375).verybig(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.subspace)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.bom_2)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(0x49731b7f).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.bom_2)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.pistol)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3023538289).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.pistol)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.topkek_5)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(0x342D5F0DA)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.topkek_5)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.mosque)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(122050532527015).mosque(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.mosque)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.MLG)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(6802356973).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.MLG)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.hung)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(03150276424):Fire(plr.Name,'i baked you a pie')
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.hung)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.trsh_hyub)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(17182254638)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.trsh_hyub)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.gkv1)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(14638461547).GKV1(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.gkv1)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.uzi)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(4746064028).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.uzi)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.guns)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(96378053590566).gunman(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.guns)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.stra)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(6535776034).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.stra)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.k0p)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(15267263357).V11(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.k0p)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.infinite_yield)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(13716575182)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.infinite_yield)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.exser)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(10868847330):pls(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.exser)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.nextpage)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.scriptspage2.Visible = true
+		script.Parent.Parent.Parent.scriptspage.Visible = false
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.Executor)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.homepage.Visible = false
+		script.Parent.Parent.serverpage.Visible = false
+		script.Parent.Parent.scriptspage.Visible = false
+		script.Parent.Parent.executorpage.Visible = true
+		script.Parent.Parent.outputpage.Visible = false
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.exec_2)
+	script.Parent.event.OnServerEvent:Connect(function(p,strin)
+		require(script.vLua)(strin)()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.exec_2)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.event:FireServer( script.Parent.Parent.input.Text)	
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.clear)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.input.Text = ""
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.omni)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(105596861749080).dun(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.omni)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.destruction_g)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(89460552442482).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.destruction_g)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.beforepage)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.homepage.Visible = false
+		script.Parent.Parent.Parent.serverpage.Visible = false
+		script.Parent.Parent.Parent.scriptspage.Visible = true
+		script.Parent.Parent.Parent.scriptspage2.Visible = false
+		script.Parent.Parent.Parent.executorpage.Visible = false
+		script.Parent.Parent.Parent.outputpage.Visible = false
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.nextpage_2)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.homepage.Visible = false
+		script.Parent.Parent.Parent.serverpage.Visible = false
+		script.Parent.Parent.Parent.scriptspage.Visible = false
+		script.Parent.Parent.Parent.scriptspage2.Visible = false
+		script.Parent.Parent.Parent.executorpage.Visible = false
+		script.Parent.Parent.Parent.outputpage.Visible = false
+		script.Parent.Parent.Parent.scriptspage3.Visible = true
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.mystic)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(15440742439)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.mystic)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.dog)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.dog)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5115249013).fehack(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.mosque_2)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(131945008071397).map(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.mosque_2)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.ssp_2)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(138625610956924).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.ssp_2)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.laser)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(6564964464)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.laser)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.china)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.china)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5597042098).chinaAnnounce(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.bean)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(11536940026)({Owners={plr.Name},Prefix= ';'})
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.bean)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.patrik)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(12102103065).Patrick(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.patrik)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.kitchen)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(8426504445).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.kitchen)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.virus)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(8317917339).Infection(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.virus)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.rocky)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(7163694262).AddRocky(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.rocky)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.yield_2)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(14035238433)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.yield_2)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.cina)
+	local button = script.Parent -- Reference to the button
+	local Players = game:GetService("Players")
+	local Workspace = game:GetService("Workspace")
+	
+	-- Function to handle the aesthetics changes
+	local function Aesthetics(player)
+		local char = player.Character or player.CharacterAdded:Wait() -- Ensure character is loaded
+		local face = char:FindFirstChild("Head"):FindFirstChild("face")
+		if face then
+			face.Texture = "http://www.roblox.com/asset/?id=111865733232046"
+		end
+	end
+	
+	-- Function to play the song
+	local function playSong()
+		local song = Instance.new("Sound")
+		song.Volume = 0.5
+		song.SoundId = "rbxassetid://123933240720384"
+		song.Parent = Workspace
+		song.Looped = false
+		song:Play()
+	end
+	
+	-- Function to apply decals to all WedgeParts in the workspace
+	local function applyDecals()
+		for _, v in pairs(Workspace:GetDescendants()) do
+			if v:IsA("WedgePart") then
+				local faces = {
+					{Face = Enum.NormalId.Front, Texture = "http://www.roblox.com/asset/?id=124872714710239"},
+					{Face = Enum.NormalId.Back, Texture = "http://www.roblox.com/asset/?id=111616848"},
+					{Face = Enum.NormalId.Bottom, Texture = "http://www.roblox.com/asset/?id=111616664"},
+					{Face = Enum.NormalId.Left, Texture = "http://www.roblox.com/asset/?id=112188192"},
+					{Face = Enum.NormalId.Right, Texture = "http://www.roblox.com/asset/?id=111616722"},
+					{Face = Enum.NormalId.Top, Texture = "http://www.roblox.com/asset/?id=111616450"}
+				}
+				for _, faceData in pairs(faces) do
+					local decal = Instance.new("Decal")
+					decal.Texture = faceData.Texture
+					decal.Face = faceData.Face
+					decal.Parent = v
+				end
+			end
+		end
+	end
+	
+	-- Button click handler
+	button.MouseButton1Down:Connect(function()
+		local player = Players:GetPlayerFromCharacter(script.Parent.Parent) -- Get the player from the button's parent (ensure this button is placed in a player's GUI)
+	
+		if player then
+			-- Trigger Aesthetics function for the player
+			Aesthetics(player)
+	
+			-- Play the song
+			playSong()
+	
+			-- Apply decals to all WedgeParts in the workspace
+			applyDecals()
+		end
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.mc)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(15581949972).mc(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.mc)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.c4)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(0x1767bf813)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.c4)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.summon)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5193737424)(plr.Name,false)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.summon)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.bv)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.bv)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(18683323231).bombvest(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.ploit)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(13895319375)(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.ploit)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.hamer)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(8038037940).CLoad(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.hamer)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.baby)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(6902745120).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.baby)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.kik)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(7004742023).Kick(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.kik)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.c0l)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(14125553864):Fire(plr.Name, "c00lkidd")
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.c0l)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.nds)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(14704225060).nds(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.nds)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.cart)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(13904101403).RAroblox(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.cart)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.GK)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(18665717275).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.GK)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.IDE)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(101722717970840):hax(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.IDE)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.Output)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.homepage.Visible = false
+		script.Parent.Parent.serverpage.Visible = false
+		script.Parent.Parent.scriptspage.Visible = false
+		script.Parent.Parent.executorpage.Visible = false
+		script.Parent.Parent.outputpage.Visible = true
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.output_2)
+	local textBox = script.Parent  -- Reference to the TextBox
+	
+	-- Function to log messages in the TextBox without color formatting
+	local function logToTextbox(message)
+		-- Simply append the message to the current TextBox text
+		textBox.Text = textBox.Text .. "\n" .. message
+	end
+	
+	-- Listen for messages from the developer console and log them in the TextBox
+	game:GetService("LogService").MessageOut:Connect(function(message, messageType)
+		logToTextbox(message)
+	end)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.clear_2)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.MainComponent.output.Text = ""
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.mosque_3)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(134934431452218).lol(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.mosque_3)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.blast)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5596373023).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.blast)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.bomb)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(120459449602839).bomb(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.bomb)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.map)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(87485420051829).house(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.map)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.decal)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(119892638045557).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.decal)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.obunga)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(130382701843144).load(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.obunga)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("Script", Instances.rc7)
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(127963526927276):RC7(plr.Name)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.rc7)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.beforepage_2)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.homepage.Visible = false
+		script.Parent.Parent.Parent.serverpage.Visible = false
+		script.Parent.Parent.Parent.scriptspage.Visible = false
+		script.Parent.Parent.Parent.scriptspage2.Visible = true
+		script.Parent.Parent.Parent.executorpage.Visible = false
+		script.Parent.Parent.Parent.outputpage.Visible = false
+		script.Parent.Parent.Parent.scriptspage3.Visible = false
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.nextpage_3)
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.top)
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.troll)
+	local TweenService = game:GetService("TweenService")  -- Access TweenService
+	local imageLabel = script.Parent  -- The ImageLabel this script is attached to
+	
+	-- Initial and target positions and sizes
+	local initialSize = UDim2.new(0, 48, 0, 48)
+	local initialPosition = UDim2.new(0.482, 0, 0.472, 0)
+	local targetSize1 = UDim2.new(0, 99, 0, 99)
+	local targetPosition1 = UDim2.new(0.462, 0, 0.442, 0)
+	local targetPosition2 = UDim2.new(0.851, 0, 0.875, 0)
+	
+	-- Tween information (easing style, direction, and duration)
+	local tweenInfo = TweenInfo.new(
+		2,  -- Time for the first smooth transition
+		Enum.EasingStyle.Quad,  -- Easing style
+		Enum.EasingDirection.Out,  -- Easing direction
+		0,  -- Times to repeat (0 means no repeat)
+		false,  -- Reverses the animation
+		0  -- Delay time before starting the tween
+	)
+	
+	-- Create the tween for the first size and position change
+	local tween1 = TweenService:Create(imageLabel, tweenInfo, {Size = targetSize1, Position = targetPosition1})
+	-- Create the tween for the second position change after the wait
+	local tween2 = TweenService:Create(imageLabel, tweenInfo, {Position = targetPosition2})
+	
+	-- Set initial size and position
+	imageLabel.Size = initialSize
+	imageLabel.Position = initialPosition
+	
+	-- Play the first tween to transition to the first target size and position
+	tween1:Play()
+	
+	-- Wait for the first animation to finish (2 seconds)
+	wait(tweenInfo.Time)
+	
+	-- Wait for 3 seconds before starting the second tween
+	wait(2.3)
+	
+	-- Play the second tween to transition to the final position
+	tween2:Play()
+	
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", Instances.troll)
+	local TweenService = game:GetService("TweenService")  -- Access TweenService
+	local imageLabel = script.Parent  -- The ImageLabel this script is attached to
+	local holdFrame = imageLabel:WaitForChild("hold")  -- The 'hold' frame inside the ImageLabel
+	
+	-- TweenInfo for rotating the ImageLabel
+	local rotationTweenInfo = TweenInfo.new(
+		1.5,  -- Duration for rotation (seconds)
+		Enum.EasingStyle.Quad,  -- Easing style for smooth rotation
+		Enum.EasingDirection.Out  -- Easing direction
+	)
+	
+	-- TweenInfo for the 'hold' frame movement
+	local frameTweenInfo = TweenInfo.new(
+		0.5,  -- Duration for the size and position change (seconds)
+		Enum.EasingStyle.Quad,  -- Easing style for smooth transition
+		Enum.EasingDirection.Out  -- Easing direction
+	)
+	
+	-- TweenInfo for the 'hold' frame background transparency
+	local transparencyTweenInfo = TweenInfo.new(
+		0.5,  -- Duration for the transparency change (seconds)
+		Enum.EasingStyle.Quad,  -- Easing style for smooth transparency change
+		Enum.EasingDirection.Out  -- Easing direction
+	)
+	
+	-- Initial properties for ImageLabel and 'hold' frame
+	local initialRotation = 0
+	local initialSize = UDim2.new(0, 21, 0, 10)
+	local initialPosition = UDim2.new(0.394, 0, -0.172, 0)
+	local targetSize = UDim2.new(0, 211, 0, 79)
+	local targetPosition = UDim2.new(-2.242, 0, 0.101, 0)  -- New target position
+	
+	-- Set initial properties
+	holdFrame.Position = initialPosition
+	holdFrame.Size = initialSize
+	holdFrame.Visible = false  -- Ensure hold frame is initially invisible
+	holdFrame.BackgroundTransparency = 1  -- Initial transparency (invisible)
+	imageLabel.Rotation = initialRotation
+	
+	-- Create the tween for ImageLabel rotation (single rotation)
+	local rotationTween = TweenService:Create(imageLabel, rotationTweenInfo, {Rotation = 360})
+	
+	-- Create the tween for the 'hold' frame movement
+	local frameTween = TweenService:Create(holdFrame, frameTweenInfo, {Position = targetPosition, Size = targetSize})
+	
+	-- Create the tween for the 'hold' frame background transparency (fade in)
+	local transparencyTween = TweenService:Create(holdFrame, transparencyTweenInfo, {BackgroundTransparency = 0})
+	
+	-- When the player hovers over the ImageLabel (MouseEnter)
+	imageLabel.MouseEnter:Connect(function()
+		-- Play the rotation tween for ImageLabel (one-time rotation)
+		rotationTween:Play()
+	
+		-- Play the tween to change the 'hold' frame position and size
+		frameTween:Play()
+	
+		-- Play the transparency tween to make the 'hold' frame visible smoothly
+		holdFrame.Visible = true
+		transparencyTween:Play()
+	end)
+	
+	-- When the player stops hovering over the ImageLabel (MouseLeave)
+	imageLabel.MouseLeave:Connect(function()
+		-- Reset the rotation to initial position smoothly
+		local resetRotationTween = TweenService:Create(imageLabel, rotationTweenInfo, {Rotation = 0})
+		resetRotationTween:Play()
+	
+		-- Reset the 'hold' frame position and size to its initial state
+		local resetFrameTween = TweenService:Create(holdFrame, frameTweenInfo, {Position = initialPosition, Size = initialSize})
+		resetFrameTween:Play()
+	
+		-- Fade the 'hold' frame background to invisible (BackgroundTransparency = 1)
+		local resetTransparencyTween = TweenService:Create(holdFrame, transparencyTweenInfo, {BackgroundTransparency = 1})
+		resetTransparencyTween:Play()
+	
+		-- Make the 'hold' frame invisible again after the transparency tween completes
+		resetTransparencyTween.Completed:Connect(function()
+			holdFrame.Visible = false
+		end)
+	end)
+end)()
+end)()
